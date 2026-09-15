@@ -6,8 +6,8 @@ Runs on existing run files — no new API calls.
 
 ```bash
 python pipeline/mode_analysis.py \
-    results/output/output_chunks_pandoc_500.json \
-    -o results/output/mode_analysis.json
+    results/output/q1_tables/v3_openai_gpt41/runs.json \
+    -o results/output/q1_tables/v3_openai_gpt41/mode_analysis.json
 ```
 
 ## Why this exists (motivation)

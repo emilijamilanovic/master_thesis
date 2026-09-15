@@ -34,7 +34,7 @@ Typical uses
 
   # analyze an existing runs file, no API calls:
   python3 run_pipeline.py \
-      --runs-file results/output/output_chunks_pandoc_500.json
+      --runs-file results/output/q1_tables/v3_openai_gpt41/runs.json
 
   # show the plan without executing anything:
   python3 run_pipeline.py --runs 100 --dry-run
@@ -121,7 +121,7 @@ def main():
                      help="Sampling temperature for generation")
     gen.add_argument("--provider",
                      help="Provider: openai, anthropic, gemini, fireworks "
-                          "(default: openai, per tools/llm.py defaults)")
+                          "(default: openai, per pipeline/tools/llm.py defaults)")
     gen.add_argument("--model",
                      help="Model shortcut (sonnet, glm, gpt4o, ...) or full model id")
     gen.add_argument("--skip-generation", action="store_true",
@@ -162,7 +162,7 @@ def main():
     # ------------------------------------------------------------------
     skip_generation = args.skip_generation or args.runs_file is not None
     out_dir = Path(args.output_dir) if args.output_dir else \
-        SCRIPTS / "output" / f"pipeline_{datetime.now():%Y%m%d_%H%M%S}"
+        REPO_ROOT / "results" / "output" / f"pipeline_{datetime.now():%Y%m%d_%H%M%S}"
     runs_json = Path(args.runs_file) if args.runs_file else out_dir / "runs.json"
     stats_json = out_dir / "stats.json"
     selected_json = out_dir / "selected.json"
@@ -184,7 +184,7 @@ def main():
                      for p in source.iterdir()):
             problems.append(f"no pandoc*.md corpus in source directory: {source}")
         # Which provider key is needed depends on --provider (or the
-        # default configured in tools/llm.py).
+        # default configured in pipeline/tools/llm.py).
         sys.path.insert(0, str(PIPELINE_DIR))
         try:
             import tools

@@ -26,7 +26,7 @@ Usage:
         --results results/output/q1_tables --out analysis/budget
 
     python3 analysis_code/budget_curves.py \
-        --results results/output/v1_openai_gpt4o --rule voter
+        --results results/output/q1_tables_v1/v1_openai_gpt4o --rule voter
 """
 
 import argparse
@@ -377,7 +377,7 @@ def main():
         description='Run-budget curves by subsampling existing runs.')
     ap.add_argument('--results', default='results/output/q1_tables',
                     help='A result folder, or a directory containing several')
-    ap.add_argument('--out', default='results/analysis/budget',
+    ap.add_argument('--out', default='results/analysis/q1_budget',
                     help='Where to write CSVs and plots')
     ap.add_argument('--gt', default='391-419', help='Ground-truth chunk ids')
     ap.add_argument('--key', default='transaction_chunks',

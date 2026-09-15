@@ -160,7 +160,7 @@ def main():
                     help='Sampling temperature (default: 0.7)')
     ap.add_argument('--provider',
                     help='Provider config to use (openai, anthropic, gemini, '
-                         'fireworks). Default: openai, per tools/llm.py defaults')
+                         'fireworks). Default: openai, per pipeline/tools/llm.py defaults')
     ap.add_argument('--model',
                     help='Model shortcut (e.g. sonnet, glm, gpt4o) or a full '
                          'model id. Default: the provider\'s "medium" shortcut')

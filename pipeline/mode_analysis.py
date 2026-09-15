@@ -19,8 +19,8 @@ Pipeline (steps 1-4 of the prototype):
      per-chunk sampling would predict.
 
 Usage:
-  python pipeline/mode_analysis.py results/output/output_chunks_pandoc_500.json \
-      -o results/output/mode_analysis.json
+  python pipeline/mode_analysis.py results/output/q1_tables/v3_openai_gpt41/runs.json \
+      -o results/output/q1_tables/v3_openai_gpt41/mode_analysis.json
 """
 
 import argparse

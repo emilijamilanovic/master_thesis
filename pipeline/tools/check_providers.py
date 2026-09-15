@@ -3,11 +3,11 @@
 
 Sends a minimal completion request (a few tokens) to each provider's
 model shortcuts and reports which succeed. Use after adding a provider
-or changing a model id in tools/llm.py.
+or changing a model id in pipeline/tools/llm.py.
 
-  python3 tools/check_providers.py                # default shortcuts
-  python3 tools/check_providers.py --all          # every shortcut
-  python3 tools/check_providers.py -p gemini      # one provider
+  python3 pipeline/tools/check_providers.py                # default shortcuts
+  python3 pipeline/tools/check_providers.py --all          # every shortcut
+  python3 pipeline/tools/check_providers.py -p gemini      # one provider
 
 API keys are read from the environment; run_pipeline.py-style .env
 loading is done here too. Keys are never printed.
@@ -83,7 +83,7 @@ def main():
             failures += 0 if ok else 1
 
     print('\nAll checked combinations succeeded.' if not failures
-          else f'\n{failures} combination(s) failed — fix the model ids in tools/llm.py.')
+          else f'\n{failures} combination(s) failed — fix the model ids in pipeline/tools/llm.py.')
     return 1 if failures else 0
 
 
