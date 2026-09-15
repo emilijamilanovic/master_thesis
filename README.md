@@ -90,7 +90,14 @@ Python 3.12.
 
     python -m venv .venv && source .venv/bin/activate
     pip install -r requirements.txt
-    cp .env.example .env        # then fill in the provider keys
+
+Create a `.env` file in the repository root with the keys for the providers
+you intend to use; it is git-ignored.
+
+    OPENAI_API_KEY=       # gpt-4.1, gpt-4.1-mini, gpt-4o (default provider)
+    ANTHROPIC_API_KEY=    # claude-haiku-4.5
+    GEMINI_API_KEY=       # gemini-3.5-flash, gemini-3.6-flash
+    FIREWORKS_API_KEY=    # glm-5p2, kimi-k3, qwen3p7-plus
 
 All providers are reached through OpenAI-compatible endpoints; keys are read
 from the environment and `.env` is never committed.
