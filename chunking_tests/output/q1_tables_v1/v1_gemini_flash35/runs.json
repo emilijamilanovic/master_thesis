@@ -1,0 +1,2268 @@
+[
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:10.088521+00:00"
+    },
+    "run": 1
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:15.146313+00:00"
+    },
+    "run": 2
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:20.273899+00:00"
+    },
+    "run": 3
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:25.188241+00:00"
+    },
+    "run": 4
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:31.027311+00:00"
+    },
+    "run": 5
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:35.766007+00:00"
+    },
+    "run": 6
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:42.353011+00:00"
+    },
+    "run": 7
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:46.893134+00:00"
+    },
+    "run": 8
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:52.088268+00:00"
+    },
+    "run": 9
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:13:58.051072+00:00"
+    },
+    "run": 10
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:02.308578+00:00"
+    },
+    "run": 11
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:07.019377+00:00"
+    },
+    "run": 12
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:13.607356+00:00"
+    },
+    "run": 13
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:18.064036+00:00"
+    },
+    "run": 14
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:23.218506+00:00"
+    },
+    "run": 15
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:27.424755+00:00"
+    },
+    "run": 16
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:32.416431+00:00"
+    },
+    "run": 17
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:36.370861+00:00"
+    },
+    "run": 18
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:39.281340+00:00"
+    },
+    "run": 19
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:45.265155+00:00"
+    },
+    "run": 20
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:48.378736+00:00"
+    },
+    "run": 21
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:53.432006+00:00"
+    },
+    "run": 22
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:14:57.896505+00:00"
+    },
+    "run": 23
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:02.638758+00:00"
+    },
+    "run": 24
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:06.031497+00:00"
+    },
+    "run": 25
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:10.148159+00:00"
+    },
+    "run": 26
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:14.017019+00:00"
+    },
+    "run": 27
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:16.524404+00:00"
+    },
+    "run": 28
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:20.230111+00:00"
+    },
+    "run": 29
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:23.914457+00:00"
+    },
+    "run": 30
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:28.905145+00:00"
+    },
+    "run": 31
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:33.516896+00:00"
+    },
+    "run": 32
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:39.223536+00:00"
+    },
+    "run": 33
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:43.906079+00:00"
+    },
+    "run": 34
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:49.397123+00:00"
+    },
+    "run": 35
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:15:55.212105+00:00"
+    },
+    "run": 36
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:00.237188+00:00"
+    },
+    "run": 37
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:04.233705+00:00"
+    },
+    "run": 38
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:09.156536+00:00"
+    },
+    "run": 39
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:13.983103+00:00"
+    },
+    "run": 40
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:20.133287+00:00"
+    },
+    "run": 41
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:25.985864+00:00"
+    },
+    "run": 42
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:30.525366+00:00"
+    },
+    "run": 43
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:35.565419+00:00"
+    },
+    "run": 44
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:41.420774+00:00"
+    },
+    "run": 45
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:47.110808+00:00"
+    },
+    "run": 46
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:51.429052+00:00"
+    },
+    "run": 47
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:55.359684+00:00"
+    },
+    "run": 48
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:16:59.957691+00:00"
+    },
+    "run": 49
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:04.566426+00:00"
+    },
+    "run": 50
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:08.556117+00:00"
+    },
+    "run": 51
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:13.350754+00:00"
+    },
+    "run": 52
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:18.094148+00:00"
+    },
+    "run": 53
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:22.543695+00:00"
+    },
+    "run": 54
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:26.996414+00:00"
+    },
+    "run": 55
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:31.329892+00:00"
+    },
+    "run": 56
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:35.144694+00:00"
+    },
+    "run": 57
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:39.511032+00:00"
+    },
+    "run": 58
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:44.695279+00:00"
+    },
+    "run": 59
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:50.218495+00:00"
+    },
+    "run": 60
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:17:55.027363+00:00"
+    },
+    "run": 61
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:00.118281+00:00"
+    },
+    "run": 62
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:05.268268+00:00"
+    },
+    "run": 63
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:10.976636+00:00"
+    },
+    "run": 64
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:14.111746+00:00"
+    },
+    "run": 65
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:17.438833+00:00"
+    },
+    "run": 66
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:22.937238+00:00"
+    },
+    "run": 67
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:26.084711+00:00"
+    },
+    "run": 68
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:30.010932+00:00"
+    },
+    "run": 69
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:35.039859+00:00"
+    },
+    "run": 70
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:38.848754+00:00"
+    },
+    "run": 71
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:41.836355+00:00"
+    },
+    "run": 72
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:47.677587+00:00"
+    },
+    "run": 73
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:18:54.614736+00:00"
+    },
+    "run": 74
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:01.544308+00:00"
+    },
+    "run": 75
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:05.259810+00:00"
+    },
+    "run": 76
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:11.077830+00:00"
+    },
+    "run": 77
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:15.821790+00:00"
+    },
+    "run": 78
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:19.063819+00:00"
+    },
+    "run": 79
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:23.988423+00:00"
+    },
+    "run": 80
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:28.287342+00:00"
+    },
+    "run": 81
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:32.897707+00:00"
+    },
+    "run": 82
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:40.801208+00:00"
+    },
+    "run": 83
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:45.903460+00:00"
+    },
+    "run": 84
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:50.817138+00:00"
+    },
+    "run": 85
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:19:57.421613+00:00"
+    },
+    "run": 86
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:01.675030+00:00"
+    },
+    "run": 87
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:08.870458+00:00"
+    },
+    "run": 88
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:15.393329+00:00"
+    },
+    "run": 89
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:20.822041+00:00"
+    },
+    "run": 90
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:23.869813+00:00"
+    },
+    "run": 91
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:29.417036+00:00"
+    },
+    "run": 92
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:33.110134+00:00"
+    },
+    "run": 93
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:39.717836+00:00"
+    },
+    "run": 94
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:42.835988+00:00"
+    },
+    "run": 95
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:46.730175+00:00"
+    },
+    "run": 96
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:51.438969+00:00"
+    },
+    "run": 97
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:54.817824+00:00"
+    },
+    "run": 98
+  },
+  {
+    "transaction_chunks": [
+      392,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:20:59.079831+00:00"
+    },
+    "run": 99
+  },
+  {
+    "transaction_chunks": [
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gemini-3.5-flash",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "prompt_sha256": "ba1554f7b90410c369701ffc873dfa273e91e7b0f8474201927cf5a342ac0c35",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T10:21:04.290444+00:00"
+    },
+    "run": 100
+  }
+]

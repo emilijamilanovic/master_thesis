@@ -1,0 +1,117 @@
+{
+  "n_runs": 100,
+  "key": "transaction_chunks",
+  "p_correct": 0.9942857142857143,
+  "p_noise": 0.00783132530120482,
+  "prior": 0.5,
+  "threshold": 0.9,
+  "selected_chunks": [
+    200,
+    201,
+    214,
+    224,
+    226,
+    227,
+    229,
+    236,
+    239,
+    250,
+    251,
+    252,
+    225,
+    228,
+    244
+  ],
+  "scores": [
+    {
+      "chunk": 200,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 201,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 214,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 224,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 226,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 227,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 229,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 236,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 239,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 250,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 251,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 252,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 225,
+      "count": 96,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 228,
+      "count": 96,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 244,
+      "count": 69,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 231,
+      "count": 35,
+      "posterior": 1.1301246519339504e-72
+    },
+    {
+      "chunk": 212,
+      "count": 23,
+      "posterior": 8.58089142339088e-125
+    },
+    {
+      "chunk": 143,
+      "count": 3,
+      "posterior": 1.1682680611443132e-211
+    }
+  ]
+}

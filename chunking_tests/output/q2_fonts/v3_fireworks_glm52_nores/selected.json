@@ -1,0 +1,126 @@
+{
+  "n_runs": 100,
+  "key": "transaction_chunks",
+  "p_correct": 0.8257142857142857,
+  "p_noise": 0.0051204819277108436,
+  "prior": 0.5,
+  "threshold": 0.9,
+  "selected_chunks": [
+    200,
+    226,
+    227,
+    239,
+    250,
+    252,
+    228,
+    224,
+    214,
+    251,
+    236,
+    225,
+    249,
+    229
+  ],
+  "scores": [
+    {
+      "chunk": 200,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 226,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 227,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 239,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 250,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 252,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 228,
+      "count": 99,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 224,
+      "count": 97,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 214,
+      "count": 95,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 251,
+      "count": 91,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 236,
+      "count": 79,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 225,
+      "count": 57,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 249,
+      "count": 54,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 229,
+      "count": 33,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 217,
+      "count": 15,
+      "posterior": 6.449780994399158e-32
+    },
+    {
+      "chunk": 210,
+      "count": 7,
+      "posterior": 1.2511912187827916e-55
+    },
+    {
+      "chunk": 215,
+      "count": 6,
+      "posterior": 1.3592396278917322e-58
+    },
+    {
+      "chunk": 201,
+      "count": 5,
+      "posterior": 1.476618712069175e-61
+    },
+    {
+      "chunk": 211,
+      "count": 2,
+      "posterior": 1.8931515764259588e-70
+    },
+    {
+      "chunk": 206,
+      "count": 1,
+      "posterior": 2.0566373913551143e-73
+    }
+  ]
+}

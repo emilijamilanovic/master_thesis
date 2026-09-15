@@ -1,0 +1,288 @@
+{
+  "n_runs": 100,
+  "key": "transaction_chunks",
+  "p_correct": 0.8889655172413793,
+  "p_noise": 0.022517482517482517,
+  "prior": 0.5,
+  "threshold": 0.9,
+  "selected_chunks": [
+    395,
+    401,
+    408,
+    415,
+    392,
+    393,
+    394,
+    396,
+    397,
+    398,
+    399,
+    400,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    416,
+    417,
+    418,
+    419,
+    391,
+    420,
+    421
+  ],
+  "scores": [
+    {
+      "chunk": 395,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 401,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 408,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 415,
+      "count": 99,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 392,
+      "count": 91,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 393,
+      "count": 88,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 394,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 396,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 397,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 398,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 399,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 400,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 402,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 403,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 404,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 405,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 406,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 407,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 409,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 410,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 411,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 412,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 413,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 414,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 416,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 417,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 418,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 419,
+      "count": 87,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 391,
+      "count": 86,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 420,
+      "count": 53,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 421,
+      "count": 44,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 422,
+      "count": 36,
+      "posterior": 0.001025711513463188
+    },
+    {
+      "chunk": 423,
+      "count": 31,
+      "posterior": 2.0248361745936137e-16
+    },
+    {
+      "chunk": 424,
+      "count": 27,
+      "posterior": 1.387794199727187e-26
+    },
+    {
+      "chunk": 425,
+      "count": 26,
+      "posterior": 3.993087824825153e-29
+    },
+    {
+      "chunk": 426,
+      "count": 25,
+      "posterior": 1.1489275845006858e-31
+    },
+    {
+      "chunk": 427,
+      "count": 20,
+      "posterior": 2.2657481167316136e-44
+    },
+    {
+      "chunk": 428,
+      "count": 17,
+      "posterior": 5.397131633011756e-52
+    },
+    {
+      "chunk": 429,
+      "count": 13,
+      "posterior": 3.6991180172692764e-62
+    },
+    {
+      "chunk": 430,
+      "count": 7,
+      "posterior": 2.0989444882952455e-77
+    },
+    {
+      "chunk": 431,
+      "count": 5,
+      "posterior": 1.7376749531106114e-82
+    },
+    {
+      "chunk": 432,
+      "count": 4,
+      "posterior": 4.9997965837683366e-85
+    },
+    {
+      "chunk": 433,
+      "count": 4,
+      "posterior": 4.9997965837683366e-85
+    },
+    {
+      "chunk": 434,
+      "count": 4,
+      "posterior": 4.9997965837683366e-85
+    },
+    {
+      "chunk": 435,
+      "count": 2,
+      "posterior": 4.13923347792698e-90
+    },
+    {
+      "chunk": 436,
+      "count": 1,
+      "posterior": 1.1909779424116202e-92
+    },
+    {
+      "chunk": 437,
+      "count": 1,
+      "posterior": 1.1909779424116202e-92
+    },
+    {
+      "chunk": 438,
+      "count": 1,
+      "posterior": 1.1909779424116202e-92
+    },
+    {
+      "chunk": 439,
+      "count": 1,
+      "posterior": 1.1909779424116202e-92
+    }
+  ]
+}

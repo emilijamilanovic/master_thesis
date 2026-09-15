@@ -1,0 +1,105 @@
+{
+  "n_runs": 100,
+  "n_distinct_patterns": 10,
+  "top_pattern_share": 0.41,
+  "merge_dist": 3,
+  "n_templates": 2,
+  "residual_flip_noise_per_run": 0.74,
+  "template_entropy_nats": 0.168,
+  "effective_n_modes": 1.18,
+  "runs_needed_to_discover_mass": {
+    "0.95": 2
+  },
+  "templates": [
+    {
+      "rank": 1,
+      "weight": 0.96,
+      "weight_ci95": [
+        0.92,
+        0.99
+      ],
+      "n_runs": 96,
+      "size": 18,
+      "chunks": "143, 200-201, 212, 214, 224-229, 231, 236, 239, 244, 250-252"
+    },
+    {
+      "rank": 2,
+      "weight": 0.04,
+      "weight_ci95": [
+        0.01,
+        0.08
+      ],
+      "n_runs": 4,
+      "size": 14,
+      "chunks": "200-201, 214, 224-229, 236, 239, 250-252"
+    }
+  ],
+  "decision_rules": {
+    "modal_template": {
+      "size": 18,
+      "chunks": "143, 200-201, 212, 214, 224-229, 231, 236, 239, 244, 250-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.778,
+        "recall": 1.0,
+        "f1": 0.875
+      }
+    },
+    "core_intersection": {
+      "size": 18,
+      "chunks": "143, 200-201, 212, 214, 224-229, 231, 236, 239, 244, 250-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.778,
+        "recall": 1.0,
+        "f1": 0.875
+      }
+    },
+    "envelope_union": {
+      "size": 18,
+      "chunks": "143, 200-201, 212, 214, 224-229, 231, 236, 239, 244, 250-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.778,
+        "recall": 1.0,
+        "f1": 0.875
+      }
+    },
+    "per_chunk_bayes_voter": {
+      "size": 15,
+      "chunks": "200-201, 214, 224-229, 236, 239, 244, 250-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.933,
+        "recall": 1.0,
+        "f1": 0.966
+      }
+    }
+  },
+  "independence_check": {
+    "block": "-",
+    "block_size": 0,
+    "block_mean_inclusion_rate": 0.0,
+    "P_all_block_together": {
+      "observed": 1.0,
+      "independent_model": 1.0
+    },
+    "P_no_block_at_all": {
+      "observed": 1.0,
+      "independent_model": 1.0
+    },
+    "selection_size_std": {
+      "observed": 0.87,
+      "independent_model": 0.76
+    }
+  },
+  "ground_truth": "200-201, 214, 224-229, 236, 239, 250-252"
+}

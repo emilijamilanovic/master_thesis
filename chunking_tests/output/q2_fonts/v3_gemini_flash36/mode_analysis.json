@@ -1,0 +1,116 @@
+{
+  "n_runs": 100,
+  "n_distinct_patterns": 10,
+  "top_pattern_share": 0.29,
+  "merge_dist": 3,
+  "n_templates": 3,
+  "residual_flip_noise_per_run": 0.73,
+  "template_entropy_nats": 0.616,
+  "effective_n_modes": 1.85,
+  "runs_needed_to_discover_mass": {
+    "0.95": 11
+  },
+  "templates": [
+    {
+      "rank": 1,
+      "weight": 0.79,
+      "weight_ci95": [
+        0.71,
+        0.87
+      ],
+      "n_runs": 79,
+      "size": 15,
+      "chunks": "200-201, 214, 224-229, 236, 239, 244, 250-252"
+    },
+    {
+      "rank": 2,
+      "weight": 0.17,
+      "weight_ci95": [
+        0.1,
+        0.25
+      ],
+      "n_runs": 17,
+      "size": 18,
+      "chunks": "143, 200-201, 212, 214, 224-229, 231, 236, 239, 244, 250-252"
+    },
+    {
+      "rank": 3,
+      "weight": 0.04,
+      "weight_ci95": [
+        0.01,
+        0.09
+      ],
+      "n_runs": 4,
+      "size": 14,
+      "chunks": "200-201, 214, 224, 226-227, 229, 231, 236, 239, 244, 250-252"
+    }
+  ],
+  "decision_rules": {
+    "modal_template": {
+      "size": 15,
+      "chunks": "200-201, 214, 224-229, 236, 239, 244, 250-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.933,
+        "recall": 1.0,
+        "f1": 0.966
+      }
+    },
+    "core_intersection": {
+      "size": 15,
+      "chunks": "200-201, 214, 224-229, 236, 239, 244, 250-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.933,
+        "recall": 1.0,
+        "f1": 0.966
+      }
+    },
+    "envelope_union": {
+      "size": 18,
+      "chunks": "143, 200-201, 212, 214, 224-229, 231, 236, 239, 244, 250-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.778,
+        "recall": 1.0,
+        "f1": 0.875
+      }
+    },
+    "per_chunk_bayes_voter": {
+      "size": 15,
+      "chunks": "200-201, 214, 224-229, 236, 239, 244, 250-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.933,
+        "recall": 1.0,
+        "f1": 0.966
+      }
+    }
+  },
+  "independence_check": {
+    "block": "143, 212, 231",
+    "block_size": 3,
+    "block_mean_inclusion_rate": 0.203,
+    "P_all_block_together": {
+      "observed": 0.02,
+      "independent_model": 0.008407
+    },
+    "P_no_block_at_all": {
+      "observed": 0.58,
+      "independent_model": 0.505627
+    },
+    "selection_size_std": {
+      "observed": 1.17,
+      "independent_model": 0.86
+    }
+  },
+  "ground_truth": "200-201, 214, 224-229, 236, 239, 250-252"
+}

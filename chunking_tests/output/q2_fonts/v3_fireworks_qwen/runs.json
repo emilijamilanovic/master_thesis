@@ -1,0 +1,3017 @@
+[
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      231,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:45:09.125761+00:00"
+    },
+    "run": 1
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      225,
+      226,
+      227,
+      229,
+      236,
+      239,
+      249,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:45:29.792761+00:00"
+    },
+    "run": 2
+  },
+  {
+    "transaction_chunks": [
+      200,
+      215,
+      217,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:45:53.169488+00:00"
+    },
+    "run": 3
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      225,
+      226,
+      227,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:46:10.966394+00:00"
+    },
+    "run": 4
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      237,
+      239,
+      240,
+      244,
+      252,
+      253
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:46:33.753402+00:00"
+    },
+    "run": 5
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:46:58.709254+00:00"
+    },
+    "run": 6
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      240,
+      248,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:47:16.032013+00:00"
+    },
+    "run": 7
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:47:39.644481+00:00"
+    },
+    "run": 8
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      224,
+      225,
+      226,
+      227,
+      228,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:47:53.507344+00:00"
+    },
+    "run": 9
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      236,
+      239,
+      240,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:48:16.760238+00:00"
+    },
+    "run": 10
+  },
+  {
+    "transaction_chunks": [
+      199,
+      200,
+      201,
+      214,
+      225,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      249,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:48:30.990171+00:00"
+    },
+    "run": 11
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      238,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:48:47.554524+00:00"
+    },
+    "run": 12
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:49:03.423788+00:00"
+    },
+    "run": 13
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:49:22.622621+00:00"
+    },
+    "run": 14
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:49:40.992036+00:00"
+    },
+    "run": 15
+  },
+  {
+    "transaction_chunks": [
+      200,
+      202,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:49:56.889386+00:00"
+    },
+    "run": 16
+  },
+  {
+    "transaction_chunks": [
+      199,
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:50:07.536544+00:00"
+    },
+    "run": 17
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:50:19.132318+00:00"
+    },
+    "run": 18
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:50:29.438082+00:00"
+    },
+    "run": 19
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      225,
+      226,
+      227,
+      229,
+      237,
+      239,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:50:39.054406+00:00"
+    },
+    "run": 20
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      238,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:50:50.180511+00:00"
+    },
+    "run": 21
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:50:58.570130+00:00"
+    },
+    "run": 22
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      237,
+      239,
+      244,
+      249
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:51:05.081681+00:00"
+    },
+    "run": 23
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:51:13.633182+00:00"
+    },
+    "run": 24
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:51:22.687259+00:00"
+    },
+    "run": 25
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      249,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:51:32.836460+00:00"
+    },
+    "run": 26
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:51:48.574699+00:00"
+    },
+    "run": 27
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:51:54.218092+00:00"
+    },
+    "run": 28
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:52:10.177835+00:00"
+    },
+    "run": 29
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      213,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      232,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:52:22.839697+00:00"
+    },
+    "run": 30
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      231,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:52:37.296806+00:00"
+    },
+    "run": 31
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:52:50.338069+00:00"
+    },
+    "run": 32
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:52:55.794406+00:00"
+    },
+    "run": 33
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      226,
+      227,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:53:07.547481+00:00"
+    },
+    "run": 34
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      236,
+      240,
+      241,
+      246,
+      251,
+      253
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:53:19.697365+00:00"
+    },
+    "run": 35
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      249,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:53:27.296293+00:00"
+    },
+    "run": 36
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:53:33.767982+00:00"
+    },
+    "run": 37
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      240,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:53:48.646289+00:00"
+    },
+    "run": 38
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      242,
+      245,
+      246,
+      251,
+      260,
+      263,
+      264
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:54:06.031851+00:00"
+    },
+    "run": 39
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:54:16.923251+00:00"
+    },
+    "run": 40
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:54:28.292005+00:00"
+    },
+    "run": 41
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:54:41.010897+00:00"
+    },
+    "run": 42
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      227,
+      236,
+      239,
+      244,
+      249,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:54:52.232187+00:00"
+    },
+    "run": 43
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      231,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:55:09.933429+00:00"
+    },
+    "run": 44
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      226,
+      227,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:55:24.645651+00:00"
+    },
+    "run": 45
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      215,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:55:36.222058+00:00"
+    },
+    "run": 46
+  },
+  {
+    "transaction_chunks": [
+      201,
+      202,
+      215,
+      225,
+      226,
+      227,
+      240,
+      246,
+      252,
+      260,
+      261
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:55:57.589579+00:00"
+    },
+    "run": 47
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      227,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:56:07.544383+00:00"
+    },
+    "run": 48
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:56:23.741718+00:00"
+    },
+    "run": 49
+  },
+  {
+    "transaction_chunks": [
+      201,
+      202,
+      215,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      237,
+      239,
+      241,
+      248,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:56:41.461962+00:00"
+    },
+    "run": 50
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:56:50.123083+00:00"
+    },
+    "run": 51
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      249
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:56:59.284710+00:00"
+    },
+    "run": 52
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:57:10.300168+00:00"
+    },
+    "run": 53
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:57:22.532564+00:00"
+    },
+    "run": 54
+  },
+  {
+    "transaction_chunks": [
+      200,
+      215,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:57:33.704724+00:00"
+    },
+    "run": 55
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      215,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:57:46.742721+00:00"
+    },
+    "run": 56
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:57:55.911301+00:00"
+    },
+    "run": 57
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      249,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:58:09.747935+00:00"
+    },
+    "run": 58
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:58:28.027933+00:00"
+    },
+    "run": 59
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      237,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:58:48.646328+00:00"
+    },
+    "run": 60
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      249,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:59:03.919456+00:00"
+    },
+    "run": 61
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      249
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:59:11.927115+00:00"
+    },
+    "run": 62
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:59:23.107431+00:00"
+    },
+    "run": 63
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      239,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:59:37.483787+00:00"
+    },
+    "run": 64
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T20:59:54.456852+00:00"
+    },
+    "run": 65
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:00:08.697950+00:00"
+    },
+    "run": 66
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      240,
+      245,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:00:22.005947+00:00"
+    },
+    "run": 67
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:00:32.486986+00:00"
+    },
+    "run": 68
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      237,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:00:50.912422+00:00"
+    },
+    "run": 69
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      237,
+      239,
+      240,
+      245,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:01:11.334026+00:00"
+    },
+    "run": 70
+  },
+  {
+    "transaction_chunks": [
+      199,
+      200,
+      201,
+      215,
+      224,
+      225,
+      226,
+      227,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:01:20.908391+00:00"
+    },
+    "run": 71
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:01:27.533919+00:00"
+    },
+    "run": 72
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:01:37.682925+00:00"
+    },
+    "run": 73
+  },
+  {
+    "transaction_chunks": [
+      199,
+      200,
+      201,
+      215,
+      224,
+      226,
+      227,
+      236,
+      239,
+      244,
+      249,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:01:48.322639+00:00"
+    },
+    "run": 74
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      249,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:01:56.307398+00:00"
+    },
+    "run": 75
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      237,
+      239,
+      240,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:02:10.855042+00:00"
+    },
+    "run": 76
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      240,
+      245,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:02:27.362391+00:00"
+    },
+    "run": 77
+  },
+  {
+    "transaction_chunks": [
+      200,
+      202,
+      214,
+      224,
+      226,
+      227,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:02:43.891056+00:00"
+    },
+    "run": 78
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:02:57.554956+00:00"
+    },
+    "run": 79
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:03:10.141960+00:00"
+    },
+    "run": 80
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      237,
+      240,
+      247,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:03:27.266868+00:00"
+    },
+    "run": 81
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      215,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:03:43.316915+00:00"
+    },
+    "run": 82
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      249,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:03:52.984400+00:00"
+    },
+    "run": 83
+  },
+  {
+    "transaction_chunks": [
+      199,
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:04:02.039891+00:00"
+    },
+    "run": 84
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:04:16.077756+00:00"
+    },
+    "run": 85
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:04:27.386245+00:00"
+    },
+    "run": 86
+  },
+  {
+    "transaction_chunks": [
+      200,
+      227,
+      240,
+      244,
+      249,
+      255
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:04:46.662227+00:00"
+    },
+    "run": 87
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      249
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:04:52.384758+00:00"
+    },
+    "run": 88
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:04:59.849798+00:00"
+    },
+    "run": 89
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      231,
+      236,
+      239,
+      244,
+      249,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:05:14.748264+00:00"
+    },
+    "run": 90
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:05:22.087555+00:00"
+    },
+    "run": 91
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      237,
+      242,
+      244,
+      250,
+      256
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:05:31.768911+00:00"
+    },
+    "run": 92
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:05:41.645927+00:00"
+    },
+    "run": 93
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      244,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:05:52.362279+00:00"
+    },
+    "run": 94
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:05:59.342070+00:00"
+    },
+    "run": 95
+  },
+  {
+    "transaction_chunks": [
+      199,
+      200,
+      214,
+      224,
+      226,
+      227,
+      236,
+      239,
+      250,
+      251
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:06:12.940393+00:00"
+    },
+    "run": 96
+  },
+  {
+    "transaction_chunks": [
+      200,
+      226,
+      236,
+      239,
+      244,
+      250
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:06:20.339924+00:00"
+    },
+    "run": 97
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      214,
+      224,
+      226,
+      227,
+      229,
+      236,
+      239,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:06:33.910291+00:00"
+    },
+    "run": 98
+  },
+  {
+    "transaction_chunks": [
+      200,
+      201,
+      212,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      237,
+      240,
+      246,
+      251,
+      252,
+      254
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:06:49.292251+00:00"
+    },
+    "run": 99
+  },
+  {
+    "transaction_chunks": [
+      200,
+      202,
+      214,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      236,
+      239,
+      244,
+      249,
+      250,
+      251,
+      252
+    ],
+    "meta": {
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "prompt_sha256": "bd2435ac787b997fd684819e7818713d4e1f9fd9c821db4191158d715dfd6a06",
+      "chunk_slice": [
+        130,
+        310
+      ],
+      "parse": "literal",
+      "timestamp": "2026-08-14T21:06:56.480534+00:00"
+    },
+    "run": 100
+  }
+]

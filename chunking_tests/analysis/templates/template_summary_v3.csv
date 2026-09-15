@@ -1,0 +1,10 @@
+prompt,provider,model,n_runs,ground_truth,n_distinct_patterns,top_pattern_share,n_templates,effective_n_modes,template_entropy_nats,residual_flip_noise,single_template,runs_to_discover_95pct,modal_weight,modal_ci_lo,modal_ci_hi,modal_size,second_weight,second_size,block_size,block_mean_rate,size_std_observed,size_std_independent,size_std_ratio,P_all_block_observed,P_all_block_independent,modal_precision,modal_recall,modal_f1,core_size,core_precision,core_recall,core_f1,envelope_size,envelope_precision,envelope_recall,envelope_f1,voter_size,voter_precision,voter_recall,voter_f1
+v3,fireworks,qwen3p7-plus,100,391-419,23,0.34,8,4.46,1.496,0.61,False,27,0.5,0.41,0.6,29,0.16,38,34,0.723,10.35,2.22,4.6622,0.14,0.0,1.0,1.0,1.0,4,1.0,0.138,0.242,38,0.763,1.0,0.866,31,0.935,1.0,0.967
+v3,openai,gpt-4o,100,391-419,5,0.62,2,1.93,0.659,0.11,False,5,0.63,0.54,0.72,29,0.37,7,22,0.63,10.65,2.3,4.6304,0.62,0.0,1.0,1.0,1.0,7,1.0,0.241,0.389,29,1.0,1.0,1.0,29,1.0,1.0,1.0
+v3,anthropic,claude-haiku-4-5-20251001,100,391-419,1,1.0,1,1.0,-0.0,0.0,True,1,1.0,1.0,1.0,29,0.0,0,0,0.0,0.0,0.0,,1.0,1.0,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0
+v3,fireworks,glm-5p2 (nores),100,391-419,1,1.0,1,1.0,-0.0,0.0,True,1,1.0,1.0,1.0,29,0.0,0,0,0.0,0.0,0.0,,1.0,1.0,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0
+v3,fireworks,kimi-k3 (nores),100,391-419,2,0.99,1,1.0,-0.0,0.01,True,1,1.0,1.0,1.0,29,0.0,0,0,0.0,0.1,0.1,1.0,1.0,1.0,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0
+v3,gemini,gemini-3.5-flash,100,391-419,1,1.0,1,1.0,-0.0,0.0,True,1,1.0,1.0,1.0,29,0.0,0,0,0.0,0.0,0.0,,1.0,1.0,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0
+v3,gemini,gemini-3.6-flash,100,391-419,1,1.0,1,1.0,-0.0,0.0,True,1,1.0,1.0,1.0,29,0.0,0,0,0.0,0.0,0.0,,1.0,1.0,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0
+v3,openai,gpt-4.1,100,391-419,1,1.0,1,1.0,-0.0,0.0,True,1,1.0,1.0,1.0,29,0.0,0,0,0.0,0.0,0.0,,1.0,1.0,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0
+v3,openai,gpt-4.1-mini,100,391-419,1,1.0,1,1.0,-0.0,0.0,True,1,1.0,1.0,1.0,29,0.0,0,0,0.0,0.0,0.0,,1.0,1.0,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0,29,1.0,1.0,1.0

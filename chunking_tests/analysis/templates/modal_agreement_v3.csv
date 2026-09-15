@@ -1,0 +1,37 @@
+prompt,model_a,model_b,jaccard,identical
+v3,qwen3p7-plus,gpt-4o,1.0,True
+v3,qwen3p7-plus,claude-haiku-4-5-20251001,1.0,True
+v3,qwen3p7-plus,glm-5p2 (nores),1.0,True
+v3,qwen3p7-plus,kimi-k3 (nores),1.0,True
+v3,qwen3p7-plus,gemini-3.5-flash,1.0,True
+v3,qwen3p7-plus,gemini-3.6-flash,1.0,True
+v3,qwen3p7-plus,gpt-4.1,1.0,True
+v3,qwen3p7-plus,gpt-4.1-mini,1.0,True
+v3,gpt-4o,claude-haiku-4-5-20251001,1.0,True
+v3,gpt-4o,glm-5p2 (nores),1.0,True
+v3,gpt-4o,kimi-k3 (nores),1.0,True
+v3,gpt-4o,gemini-3.5-flash,1.0,True
+v3,gpt-4o,gemini-3.6-flash,1.0,True
+v3,gpt-4o,gpt-4.1,1.0,True
+v3,gpt-4o,gpt-4.1-mini,1.0,True
+v3,claude-haiku-4-5-20251001,glm-5p2 (nores),1.0,True
+v3,claude-haiku-4-5-20251001,kimi-k3 (nores),1.0,True
+v3,claude-haiku-4-5-20251001,gemini-3.5-flash,1.0,True
+v3,claude-haiku-4-5-20251001,gemini-3.6-flash,1.0,True
+v3,claude-haiku-4-5-20251001,gpt-4.1,1.0,True
+v3,claude-haiku-4-5-20251001,gpt-4.1-mini,1.0,True
+v3,glm-5p2 (nores),kimi-k3 (nores),1.0,True
+v3,glm-5p2 (nores),gemini-3.5-flash,1.0,True
+v3,glm-5p2 (nores),gemini-3.6-flash,1.0,True
+v3,glm-5p2 (nores),gpt-4.1,1.0,True
+v3,glm-5p2 (nores),gpt-4.1-mini,1.0,True
+v3,kimi-k3 (nores),gemini-3.5-flash,1.0,True
+v3,kimi-k3 (nores),gemini-3.6-flash,1.0,True
+v3,kimi-k3 (nores),gpt-4.1,1.0,True
+v3,kimi-k3 (nores),gpt-4.1-mini,1.0,True
+v3,gemini-3.5-flash,gemini-3.6-flash,1.0,True
+v3,gemini-3.5-flash,gpt-4.1,1.0,True
+v3,gemini-3.5-flash,gpt-4.1-mini,1.0,True
+v3,gemini-3.6-flash,gpt-4.1,1.0,True
+v3,gemini-3.6-flash,gpt-4.1-mini,1.0,True
+v3,gpt-4.1,gpt-4.1-mini,1.0,True

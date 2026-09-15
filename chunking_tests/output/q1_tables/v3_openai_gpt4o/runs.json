@@ -1,0 +1,3883 @@
+[
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:20:59.877973+00:00"
+    },
+    "run": 1
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:00.871571+00:00"
+    },
+    "run": 2
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:02.778002+00:00"
+    },
+    "run": 3
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:03.780967+00:00"
+    },
+    "run": 4
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:06.277407+00:00"
+    },
+    "run": 5
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:07.560825+00:00"
+    },
+    "run": 6
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:09.668511+00:00"
+    },
+    "run": 7
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:11.372536+00:00"
+    },
+    "run": 8
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:12.292907+00:00"
+    },
+    "run": 9
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:14.256629+00:00"
+    },
+    "run": 10
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:15.590926+00:00"
+    },
+    "run": 11
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:17.630288+00:00"
+    },
+    "run": 12
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:19.286001+00:00"
+    },
+    "run": 13
+  },
+  {
+    "transaction_chunks": [
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:20.241804+00:00"
+    },
+    "run": 14
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:22.292231+00:00"
+    },
+    "run": 15
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:23.764770+00:00"
+    },
+    "run": 16
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:24.728300+00:00"
+    },
+    "run": 17
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:26.900243+00:00"
+    },
+    "run": 18
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      399,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:28.308405+00:00"
+    },
+    "run": 19
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:36.139079+00:00"
+    },
+    "run": 20
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:37.866553+00:00"
+    },
+    "run": 21
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:38.848982+00:00"
+    },
+    "run": 22
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:40.066302+00:00"
+    },
+    "run": 23
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:42.528990+00:00"
+    },
+    "run": 24
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:43.541507+00:00"
+    },
+    "run": 25
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:45.183170+00:00"
+    },
+    "run": 26
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:46.701267+00:00"
+    },
+    "run": 27
+  },
+  {
+    "transaction_chunks": [
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:48.671494+00:00"
+    },
+    "run": 28
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:49.901909+00:00"
+    },
+    "run": 29
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:51.411029+00:00"
+    },
+    "run": 30
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:53.047114+00:00"
+    },
+    "run": 31
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:55.120327+00:00"
+    },
+    "run": 32
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:57.239989+00:00"
+    },
+    "run": 33
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:21:58.708928+00:00"
+    },
+    "run": 34
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:00.263878+00:00"
+    },
+    "run": 35
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:01.884838+00:00"
+    },
+    "run": 36
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:06.054755+00:00"
+    },
+    "run": 37
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:07.904490+00:00"
+    },
+    "run": 38
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:09.821749+00:00"
+    },
+    "run": 39
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:14.615592+00:00"
+    },
+    "run": 40
+  },
+  {
+    "transaction_chunks": [
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:17.794666+00:00"
+    },
+    "run": 41
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:19.238490+00:00"
+    },
+    "run": 42
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:20.513514+00:00"
+    },
+    "run": 43
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:21.645727+00:00"
+    },
+    "run": 44
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:23.959326+00:00"
+    },
+    "run": 45
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:25.499182+00:00"
+    },
+    "run": 46
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:26.619503+00:00"
+    },
+    "run": 47
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:27.739113+00:00"
+    },
+    "run": 48
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:29.534313+00:00"
+    },
+    "run": 49
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:31.155410+00:00"
+    },
+    "run": 50
+  },
+  {
+    "transaction_chunks": [
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:32.702641+00:00"
+    },
+    "run": 51
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:38.136821+00:00"
+    },
+    "run": 52
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:39.475995+00:00"
+    },
+    "run": 53
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:40.888888+00:00"
+    },
+    "run": 54
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:41.872242+00:00"
+    },
+    "run": 55
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:43.762107+00:00"
+    },
+    "run": 56
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:44.791051+00:00"
+    },
+    "run": 57
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:46.232711+00:00"
+    },
+    "run": 58
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:48.054159+00:00"
+    },
+    "run": 59
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:49.340990+00:00"
+    },
+    "run": 60
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:50.259429+00:00"
+    },
+    "run": 61
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:53.337519+00:00"
+    },
+    "run": 62
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:55.129527+00:00"
+    },
+    "run": 63
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:56.075723+00:00"
+    },
+    "run": 64
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:57.546405+00:00"
+    },
+    "run": 65
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:22:59.805777+00:00"
+    },
+    "run": 66
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:04.914948+00:00"
+    },
+    "run": 67
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:06.949724+00:00"
+    },
+    "run": 68
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:08.735300+00:00"
+    },
+    "run": 69
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:10.194658+00:00"
+    },
+    "run": 70
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:11.765691+00:00"
+    },
+    "run": 71
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:13.352397+00:00"
+    },
+    "run": 72
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:15.750274+00:00"
+    },
+    "run": 73
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:18.982177+00:00"
+    },
+    "run": 74
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:21.901322+00:00"
+    },
+    "run": 75
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:23.650537+00:00"
+    },
+    "run": 76
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:25.726555+00:00"
+    },
+    "run": 77
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:30.977185+00:00"
+    },
+    "run": 78
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:40.850409+00:00"
+    },
+    "run": 79
+  },
+  {
+    "transaction_chunks": [
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:43.154140+00:00"
+    },
+    "run": 80
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:44.932834+00:00"
+    },
+    "run": 81
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:48.372467+00:00"
+    },
+    "run": 82
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:51.554353+00:00"
+    },
+    "run": 83
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:52.873764+00:00"
+    },
+    "run": 84
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:23:54.776903+00:00"
+    },
+    "run": 85
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:01.680909+00:00"
+    },
+    "run": 86
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:05.195052+00:00"
+    },
+    "run": 87
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:06.888151+00:00"
+    },
+    "run": 88
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:08.351532+00:00"
+    },
+    "run": 89
+  },
+  {
+    "transaction_chunks": [
+      392,
+      393,
+      395,
+      401,
+      408,
+      415
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:09.329489+00:00"
+    },
+    "run": 90
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:11.435080+00:00"
+    },
+    "run": 91
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:15.364705+00:00"
+    },
+    "run": 92
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:17.916296+00:00"
+    },
+    "run": 93
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:19.689506+00:00"
+    },
+    "run": 94
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:21.526496+00:00"
+    },
+    "run": 95
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:24.124244+00:00"
+    },
+    "run": 96
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:25.914080+00:00"
+    },
+    "run": 97
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:27.930768+00:00"
+    },
+    "run": 98
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:31.005861+00:00"
+    },
+    "run": 99
+  },
+  {
+    "transaction_chunks": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "meta": {
+      "model": "gpt-4o",
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "base_url": "https://api.openai.com/v1",
+      "prompt_sha256": "bc2af9b4b87bd4aaeb9c30a33723c87352c95d522a9895e9ff49b02835c51810",
+      "chunk_slice": [
+        313,
+        485
+      ],
+      "parse": "literal",
+      "timestamp": "2026-07-28T14:24:32.483026+00:00"
+    },
+    "run": 100
+  }
+]

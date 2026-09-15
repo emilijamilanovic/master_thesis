@@ -1,0 +1,48 @@
+{
+  "n_runs": 100,
+  "key": "transaction_chunks",
+  "p_correct": 0.1606896551724138,
+  "p_noise": 0.0,
+  "prior": 0.5,
+  "threshold": 0.9,
+  "selected_chunks": [
+    395,
+    401,
+    408,
+    415,
+    392,
+    391
+  ],
+  "scores": [
+    {
+      "chunk": 395,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 401,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 408,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 415,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 392,
+      "count": 61,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 391,
+      "count": 5,
+      "posterior": 1.0
+    }
+  ]
+}

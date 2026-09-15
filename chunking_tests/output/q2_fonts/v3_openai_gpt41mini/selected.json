@@ -1,0 +1,149 @@
+{
+  "n_runs": 100,
+  "key": "transaction_chunks",
+  "p_correct": 0.42928571428571427,
+  "p_noise": 0.004939759036144578,
+  "prior": 0.5,
+  "threshold": 0.9,
+  "selected_chunks": [
+    226,
+    227,
+    228,
+    251,
+    200,
+    250,
+    236,
+    252,
+    220,
+    216,
+    249,
+    215
+  ],
+  "scores": [
+    {
+      "chunk": 226,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 227,
+      "count": 99,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 228,
+      "count": 99,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 251,
+      "count": 89,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 200,
+      "count": 78,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 250,
+      "count": 57,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 236,
+      "count": 36,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 252,
+      "count": 31,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 220,
+      "count": 22,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 216,
+      "count": 14,
+      "posterior": 0.9999995865103899
+    },
+    {
+      "chunk": 249,
+      "count": 13,
+      "posterior": 0.9999373517600423
+    },
+    {
+      "chunk": 215,
+      "count": 12,
+      "posterior": 0.9905961858686864
+    },
+    {
+      "chunk": 221,
+      "count": 7,
+      "posterior": 1.3189736027337982e-09
+    },
+    {
+      "chunk": 224,
+      "count": 6,
+      "posterior": 8.704920363903074e-12
+    },
+    {
+      "chunk": 218,
+      "count": 4,
+      "posterior": 3.7915972378168335e-16
+    },
+    {
+      "chunk": 225,
+      "count": 3,
+      "posterior": 2.5023663775783313e-18
+    },
+    {
+      "chunk": 230,
+      "count": 2,
+      "posterior": 1.6515038636435168e-20
+    },
+    {
+      "chunk": 231,
+      "count": 2,
+      "posterior": 1.6515038636435168e-20
+    },
+    {
+      "chunk": 237,
+      "count": 2,
+      "posterior": 1.6515038636435168e-20
+    },
+    {
+      "chunk": 253,
+      "count": 2,
+      "posterior": 1.6515038636435168e-20
+    },
+    {
+      "chunk": 201,
+      "count": 1,
+      "posterior": 1.0899543072781107e-22
+    },
+    {
+      "chunk": 214,
+      "count": 1,
+      "posterior": 1.0899543072781107e-22
+    },
+    {
+      "chunk": 229,
+      "count": 1,
+      "posterior": 1.0899543072781107e-22
+    },
+    {
+      "chunk": 246,
+      "count": 1,
+      "posterior": 1.0899543072781107e-22
+    },
+    {
+      "chunk": 255,
+      "count": 1,
+      "posterior": 1.0899543072781107e-22
+    }
+  ]
+}

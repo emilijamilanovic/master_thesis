@@ -1,0 +1,4 @@
+model,provider,prompt,prompt_sha,n_runs,n_valid,n_parse_failed,size_mean,size_std,precision_mean,recall_mean,f1_mean,f1_std,tp_mean,fp_mean,fn_mean,p_correct,p_noise,jaccard_mean,n_unique_sets,modal_set_freq,chunk_variability
+gemini-3.1-pro-preview,gemini,v2,2e4d2244958c,10,10,0,29.0,0.0,1.0,1.0,1.0,0.0,29.0,0.0,0.0,1.0,0.0,1.0,1,1.0,0.0
+gemini-3.1-pro-preview,gemini,v3,bc2af9b4b87b,10,10,0,29.0,0.0,1.0,1.0,1.0,0.0,29.0,0.0,0.0,1.0,0.0,1.0,1,1.0,0.0
+gemini-3.1-pro-preview,gemini,v1,ba1554f7b904,10,10,0,5.0,0.0,1.0,0.1724,0.2941,0.0,5.0,0.0,24.0,0.1724,0.0,1.0,1,1.0,0.0

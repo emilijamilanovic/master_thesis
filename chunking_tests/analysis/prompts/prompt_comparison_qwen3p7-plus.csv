@@ -1,0 +1,2 @@
+model,provider,prompt,prompt_sha,n_runs,n_valid,n_parse_failed,size_mean,size_std,precision_mean,recall_mean,f1_mean,f1_std,tp_mean,fp_mean,fn_mean,p_correct,p_noise,jaccard_mean,n_unique_sets,modal_set_freq,chunk_variability
+qwen3p7-plus,fireworks,v3,4167961094bd,100,100,0,29.0,10.401,0.9135,0.889,0.8565,0.2371,25.78,3.22,3.22,0.889,0.0225,0.705,23,0.34,0.1025

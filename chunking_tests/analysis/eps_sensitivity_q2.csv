@@ -1,0 +1,10 @@
+folder,model,prompt,n_runs,p_correct,p_noise,clamp_binds,size_eps_1e-03,size_eps_1e-04,size_eps_1e-06,size_eps_1e-08,size_eps_1e-10,size_eps_1e-12,f1_eps_1e-03,f1_eps_1e-04,f1_eps_1e-06,f1_eps_1e-08,f1_eps_1e-10,f1_eps_1e-12,selection_changes_with_eps,max_size_diff
+v3_anthropic_haiku,claude-haiku-4-5-20251001,v3,100,0.9193,0.00843,none,15,15,15,15,15,15,0.966,0.966,0.966,0.966,0.966,0.966,False,0
+v3_fireworks_glm52_nores,accounts/fireworks/models/glm-5p2,v3,100,0.8257,0.00512,none,14,14,14,14,14,14,0.929,0.929,0.929,0.929,0.929,0.929,False,0
+v3_fireworks_kimi3_nores,accounts/fireworks/models/kimi-k3,v3,100,0.9064,0.00922,none,16,16,16,16,16,16,0.933,0.933,0.933,0.933,0.933,0.933,False,0
+v3_fireworks_qwen,accounts/fireworks/models/qwen3p7-plus,v3,100,0.7307,0.01157,none,16,16,16,16,16,16,0.933,0.933,0.933,0.933,0.933,0.933,False,0
+v3_gemini_flash35,gemini-3.5-flash,v3,100,1.0,0.01952,p_correct=1,17,17,17,16,15,15,0.903,0.903,0.903,0.933,0.966,0.966,True,2
+v3_gemini_flash36,gemini-3.6-flash,v3,100,0.9943,0.00783,none,15,15,15,15,15,15,0.966,0.966,0.966,0.966,0.966,0.966,False,0
+v3_openai_gpt41,gpt-4.1,v3,100,0.8864,0.0,p_noise=0,13,13,13,13,13,13,0.963,0.963,0.963,0.963,0.963,0.963,False,0
+v3_openai_gpt41mini,gpt-4.1-mini,v3,100,0.4293,0.00494,none,12,12,12,12,12,12,0.615,0.615,0.615,0.615,0.615,0.615,False,0
+v3_openai_gpt4o,gpt-4o,v3,100,0.5607,0.01205,none,13,13,13,13,13,13,0.667,0.667,0.667,0.667,0.667,0.667,False,0

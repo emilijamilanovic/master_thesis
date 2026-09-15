@@ -1,0 +1,160 @@
+{
+  "n_runs": 100,
+  "n_distinct_patterns": 45,
+  "top_pattern_share": 0.2,
+  "merge_dist": 3,
+  "n_templates": 7,
+  "residual_flip_noise_per_run": 1.37,
+  "template_entropy_nats": 0.956,
+  "effective_n_modes": 2.6,
+  "runs_needed_to_discover_mass": {
+    "0.95": 27
+  },
+  "templates": [
+    {
+      "rank": 1,
+      "weight": 0.69,
+      "weight_ci95": [
+        0.6,
+        0.78
+      ],
+      "n_runs": 69,
+      "size": 15,
+      "chunks": "200-202, 214, 224-229, 236, 239, 250-252"
+    },
+    {
+      "rank": 2,
+      "weight": 0.21,
+      "weight_ci95": [
+        0.13,
+        0.29
+      ],
+      "n_runs": 21,
+      "size": 11,
+      "chunks": "200-201, 214, 224, 226-227, 236, 239, 250-252"
+    },
+    {
+      "rank": 3,
+      "weight": 0.04,
+      "weight_ci95": [
+        0.01,
+        0.08
+      ],
+      "n_runs": 4,
+      "size": 10,
+      "chunks": "200, 214, 224, 226-227, 236, 249-252"
+    },
+    {
+      "rank": 4,
+      "weight": 0.03,
+      "weight_ci95": [
+        0.0,
+        0.07
+      ],
+      "n_runs": 3,
+      "size": 11,
+      "chunks": "200, 214, 224, 226-228, 236, 239, 250-252"
+    },
+    {
+      "rank": 5,
+      "weight": 0.01,
+      "weight_ci95": [
+        0.0,
+        0.04
+      ],
+      "n_runs": 1,
+      "size": 54,
+      "chunks": "199-252"
+    },
+    {
+      "rank": 6,
+      "weight": 0.01,
+      "weight_ci95": [
+        0.0,
+        0.03
+      ],
+      "n_runs": 1,
+      "size": 17,
+      "chunks": "200-201, 212, 214, 224-229, 231, 236, 239, 244, 250-252"
+    },
+    {
+      "rank": 7,
+      "weight": 0.01,
+      "weight_ci95": [
+        0.0,
+        0.03
+      ],
+      "n_runs": 1,
+      "size": 37,
+      "chunks": "199-203, 214, 217-230, 236-252"
+    }
+  ],
+  "decision_rules": {
+    "modal_template": {
+      "size": 15,
+      "chunks": "200-202, 214, 224-229, 236, 239, 250-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.933,
+        "recall": 1.0,
+        "f1": 0.966
+      }
+    },
+    "core_intersection": {
+      "size": 9,
+      "chunks": "200, 214, 224, 226-227, 236, 250-252",
+      "vs_gt": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 5,
+        "precision": 1.0,
+        "recall": 0.643,
+        "f1": 0.783
+      }
+    },
+    "envelope_union": {
+      "size": 16,
+      "chunks": "200-202, 214, 224-229, 236, 239, 249-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.933
+      }
+    },
+    "per_chunk_bayes_voter": {
+      "size": 16,
+      "chunks": "200-202, 214, 224-229, 236, 239, 249-252",
+      "vs_gt": {
+        "tp": 14,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.933
+      }
+    }
+  },
+  "independence_check": {
+    "block": "201-202, 225, 228-229, 239, 249",
+    "block_size": 7,
+    "block_mean_inclusion_rate": 0.676,
+    "P_all_block_together": {
+      "observed": 0.11,
+      "independent_model": 0.064319
+    },
+    "P_no_block_at_all": {
+      "observed": 0.01,
+      "independent_model": 0.000377
+    },
+    "selection_size_std": {
+      "observed": 5.15,
+      "independent_model": 1.49
+    }
+  },
+  "ground_truth": "200-201, 214, 224-229, 236, 239, 250-252"
+}

@@ -1,0 +1,90 @@
+{
+  "n_runs": 100,
+  "key": "transaction_chunks",
+  "p_correct": 0.8864285714285715,
+  "p_noise": 0.0,
+  "prior": 0.5,
+  "threshold": 0.9,
+  "selected_chunks": [
+    200,
+    201,
+    214,
+    224,
+    225,
+    226,
+    227,
+    228,
+    236,
+    239,
+    250,
+    252,
+    251
+  ],
+  "scores": [
+    {
+      "chunk": 200,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 201,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 214,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 224,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 225,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 226,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 227,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 228,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 236,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 239,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 250,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 252,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 251,
+      "count": 41,
+      "posterior": 1.0
+    }
+  ]
+}

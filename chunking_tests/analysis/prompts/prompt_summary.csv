@@ -1,0 +1,3 @@
+prompt,prompt_sha,n_models,f1_mean,f1_min,f1_max,f1_spread_across_models,precision_mean,recall_mean,size_mean,jaccard_mean,models_where_best
+v1,ba1554f7b904,6,0.5766,0.2764,1.0,0.3405,0.9998,0.4992,14.4783,0.8718,2
+v3,bc2af9b4b87b,9,0.9587,0.772,1.0,0.0846,0.9904,0.9562,28.0889,0.9264,7

@@ -1,0 +1,16 @@
+prompt,model_a,model_b,jaccard,identical
+v1,gpt-4.1,gemini-3.6-flash,0.6667,False
+v1,gpt-4.1,claude-haiku-4-5-20251001,0.2069,False
+v1,gpt-4.1,gemini-3.5-flash,0.8333,False
+v1,gpt-4.1,gpt-4.1-mini,0.2069,False
+v1,gpt-4.1,gpt-4o,0.8571,False
+v1,gemini-3.6-flash,claude-haiku-4-5-20251001,0.1379,False
+v1,gemini-3.6-flash,gemini-3.5-flash,0.8,False
+v1,gemini-3.6-flash,gpt-4.1-mini,0.1379,False
+v1,gemini-3.6-flash,gpt-4o,0.5714,False
+v1,claude-haiku-4-5-20251001,gemini-3.5-flash,0.1724,False
+v1,claude-haiku-4-5-20251001,gpt-4.1-mini,1.0,True
+v1,claude-haiku-4-5-20251001,gpt-4o,0.2414,False
+v1,gemini-3.5-flash,gpt-4.1-mini,0.1724,False
+v1,gemini-3.5-flash,gpt-4o,0.7143,False
+v1,gpt-4.1-mini,gpt-4o,0.2414,False

@@ -1,0 +1,10 @@
+model,provider,n_prompts,best_prompt,best_f1,worst_prompt,worst_f1,f1_range,size_range,cross_prompt_jaccard,f1_v3,f1_v1,size_v3,size_v1
+gemini-3.5-flash,gemini,2,v3,1.0,v1,0.2764,0.7236,24.34,0.1724,1.0,0.2764,29.0,4.66
+gemini-3.6-flash,gemini,2,v3,1.0,v1,0.2947,0.7053,23.49,0.1379,1.0,0.2947,29.0,5.51
+gpt-4.1,openai,2,v3,1.0,v1,0.5353,0.4647,16.55,0.2069,1.0,0.5353,29.0,12.45
+gpt-4o,openai,2,v3,0.772,v1,0.3531,0.4189,14.56,0.2414,0.772,0.3531,20.81,6.25
+claude-haiku-4-5-20251001,anthropic,2,v1,1.0,v3,1.0,0.0,0.0,1.0,1.0,1.0,29.0,29.0
+glm-5p2 (nores),fireworks,1,v3,1.0,v3,1.0,0.0,0.0,0.0,1.0,,29.0,
+gpt-4.1-mini,openai,2,v1,1.0,v3,1.0,0.0,0.0,1.0,1.0,1.0,29.0,29.0
+kimi-k3 (nores),fireworks,1,v3,0.9998,v3,0.9998,0.0,0.0,0.0,0.9998,,28.99,
+qwen3p7-plus,fireworks,1,v3,0.8565,v3,0.8565,0.0,0.0,0.0,0.8565,,29.0,

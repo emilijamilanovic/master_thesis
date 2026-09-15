@@ -1,0 +1,127 @@
+{
+  "n_runs": 100,
+  "n_distinct_patterns": 38,
+  "top_pattern_share": 0.13,
+  "merge_dist": 3,
+  "n_templates": 4,
+  "residual_flip_noise_per_run": 1.4,
+  "template_entropy_nats": 0.831,
+  "effective_n_modes": 2.29,
+  "runs_needed_to_discover_mass": {
+    "0.95": 16
+  },
+  "templates": [
+    {
+      "rank": 1,
+      "weight": 0.72,
+      "weight_ci95": [
+        0.64,
+        0.81
+      ],
+      "n_runs": 72,
+      "size": 13,
+      "chunks": "200, 214, 224-228, 236, 239, 249-252"
+    },
+    {
+      "rank": 2,
+      "weight": 0.19,
+      "weight_ci95": [
+        0.12,
+        0.26
+      ],
+      "n_runs": 19,
+      "size": 11,
+      "chunks": "200, 214, 224, 226-228, 236, 239, 250-252"
+    },
+    {
+      "rank": 3,
+      "weight": 0.05,
+      "weight_ci95": [
+        0.01,
+        0.1
+      ],
+      "n_runs": 5,
+      "size": 12,
+      "chunks": "200, 215, 224, 226-228, 236, 239, 249-252"
+    },
+    {
+      "rank": 4,
+      "weight": 0.04,
+      "weight_ci95": [
+        0.01,
+        0.08
+      ],
+      "n_runs": 4,
+      "size": 14,
+      "chunks": "200, 206, 214, 217, 224, 226-228, 236, 239, 249-252"
+    }
+  ],
+  "decision_rules": {
+    "modal_template": {
+      "size": 13,
+      "chunks": "200, 214, 224-228, 236, 239, 249-252",
+      "vs_gt": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.923,
+        "recall": 0.857,
+        "f1": 0.889
+      }
+    },
+    "core_intersection": {
+      "size": 10,
+      "chunks": "200, 224, 226-228, 236, 239, 250-252",
+      "vs_gt": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.714,
+        "f1": 0.833
+      }
+    },
+    "envelope_union": {
+      "size": 14,
+      "chunks": "200, 214-215, 224-228, 236, 239, 249-252",
+      "vs_gt": {
+        "tp": 12,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.857,
+        "recall": 0.857,
+        "f1": 0.857
+      }
+    },
+    "per_chunk_bayes_voter": {
+      "size": 14,
+      "chunks": "200, 214, 224-229, 236, 239, 249-252",
+      "vs_gt": {
+        "tp": 13,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.929,
+        "recall": 0.929,
+        "f1": 0.929
+      }
+    }
+  },
+  "independence_check": {
+    "block": "214-215, 225, 249",
+    "block_size": 4,
+    "block_mean_inclusion_rate": 0.53,
+    "P_all_block_together": {
+      "observed": 0.01,
+      "independent_model": 0.078905
+    },
+    "P_no_block_at_all": {
+      "observed": 0.0,
+      "independent_model": 0.048797
+    },
+    "selection_size_std": {
+      "observed": 1.57,
+      "independent_model": 1.16
+    }
+  },
+  "ground_truth": "200-201, 214, 224-229, 236, 239, 250-252"
+}

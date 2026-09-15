@@ -1,0 +1,94 @@
+{
+  "n_runs": 100,
+  "n_distinct_patterns": 1,
+  "top_pattern_share": 1.0,
+  "merge_dist": 3,
+  "n_templates": 1,
+  "residual_flip_noise_per_run": 0.0,
+  "template_entropy_nats": -0.0,
+  "effective_n_modes": 1.0,
+  "runs_needed_to_discover_mass": {
+    "0.95": 1
+  },
+  "templates": [
+    {
+      "rank": 1,
+      "weight": 1.0,
+      "weight_ci95": [
+        1.0,
+        1.0
+      ],
+      "n_runs": 100,
+      "size": 29,
+      "chunks": "391-419"
+    }
+  ],
+  "decision_rules": {
+    "modal_template": {
+      "size": 29,
+      "chunks": "391-419",
+      "vs_gt": {
+        "tp": 29,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "core_intersection": {
+      "size": 29,
+      "chunks": "391-419",
+      "vs_gt": {
+        "tp": 29,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "envelope_union": {
+      "size": 29,
+      "chunks": "391-419",
+      "vs_gt": {
+        "tp": 29,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "per_chunk_bayes_voter": {
+      "size": 29,
+      "chunks": "391-419",
+      "vs_gt": {
+        "tp": 29,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "independence_check": {
+    "block": "-",
+    "block_size": 0,
+    "block_mean_inclusion_rate": 0.0,
+    "P_all_block_together": {
+      "observed": 1.0,
+      "independent_model": 1.0
+    },
+    "P_no_block_at_all": {
+      "observed": 1.0,
+      "independent_model": 1.0
+    },
+    "selection_size_std": {
+      "observed": 0.0,
+      "independent_model": 0.0
+    }
+  },
+  "ground_truth": "391-419"
+}

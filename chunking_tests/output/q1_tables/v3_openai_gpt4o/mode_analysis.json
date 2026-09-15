@@ -1,0 +1,105 @@
+{
+  "n_runs": 100,
+  "n_distinct_patterns": 5,
+  "top_pattern_share": 0.62,
+  "merge_dist": 3,
+  "n_templates": 2,
+  "residual_flip_noise_per_run": 0.11,
+  "template_entropy_nats": 0.659,
+  "effective_n_modes": 1.93,
+  "runs_needed_to_discover_mass": {
+    "0.95": 5
+  },
+  "templates": [
+    {
+      "rank": 1,
+      "weight": 0.63,
+      "weight_ci95": [
+        0.54,
+        0.72
+      ],
+      "n_runs": 63,
+      "size": 29,
+      "chunks": "391-419"
+    },
+    {
+      "rank": 2,
+      "weight": 0.37,
+      "weight_ci95": [
+        0.28,
+        0.46
+      ],
+      "n_runs": 37,
+      "size": 7,
+      "chunks": "391-393, 395, 401, 408, 415"
+    }
+  ],
+  "decision_rules": {
+    "modal_template": {
+      "size": 29,
+      "chunks": "391-419",
+      "vs_gt": {
+        "tp": 29,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "core_intersection": {
+      "size": 7,
+      "chunks": "391-393, 395, 401, 408, 415",
+      "vs_gt": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 22,
+        "precision": 1.0,
+        "recall": 0.241,
+        "f1": 0.389
+      }
+    },
+    "envelope_union": {
+      "size": 29,
+      "chunks": "391-419",
+      "vs_gt": {
+        "tp": 29,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "per_chunk_bayes_voter": {
+      "size": 29,
+      "chunks": "391-419",
+      "vs_gt": {
+        "tp": 29,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "independence_check": {
+    "block": "394, 396-400, 402-407, 409-414, 416-419",
+    "block_size": 22,
+    "block_mean_inclusion_rate": 0.63,
+    "P_all_block_together": {
+      "observed": 0.62,
+      "independent_model": 3.9e-05
+    },
+    "P_no_block_at_all": {
+      "observed": 0.36,
+      "independent_model": 0.0
+    },
+    "selection_size_std": {
+      "observed": 10.65,
+      "independent_model": 2.3
+    }
+  },
+  "ground_truth": "391-419"
+}

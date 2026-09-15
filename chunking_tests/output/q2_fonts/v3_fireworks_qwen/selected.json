@@ -1,0 +1,238 @@
+{
+  "n_runs": 100,
+  "key": "transaction_chunks",
+  "p_correct": 0.7307142857142858,
+  "p_noise": 0.011566265060240964,
+  "prior": 0.5,
+  "threshold": 0.9,
+  "selected_chunks": [
+    226,
+    200,
+    239,
+    236,
+    227,
+    250,
+    251,
+    244,
+    201,
+    224,
+    214,
+    229,
+    225,
+    252,
+    228,
+    249
+  ],
+  "scores": [
+    {
+      "chunk": 226,
+      "count": 99,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 200,
+      "count": 98,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 239,
+      "count": 90,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 236,
+      "count": 86,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 227,
+      "count": 80,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 250,
+      "count": 77,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 251,
+      "count": 75,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 244,
+      "count": 74,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 201,
+      "count": 71,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 224,
+      "count": 67,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 214,
+      "count": 65,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 229,
+      "count": 64,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 225,
+      "count": 54,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 252,
+      "count": 49,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 228,
+      "count": 48,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 249,
+      "count": 28,
+      "posterior": 0.9999999998240696
+    },
+    {
+      "chunk": 240,
+      "count": 13,
+      "posterior": 1.8850750652440588e-26
+    },
+    {
+      "chunk": 212,
+      "count": 11,
+      "posterior": 3.505510275921983e-31
+    },
+    {
+      "chunk": 237,
+      "count": 11,
+      "posterior": 3.505510275921983e-31
+    },
+    {
+      "chunk": 215,
+      "count": 9,
+      "posterior": 6.518892812898913e-36
+    },
+    {
+      "chunk": 199,
+      "count": 6,
+      "posterior": 5.227664812601666e-43
+    },
+    {
+      "chunk": 202,
+      "count": 5,
+      "posterior": 2.2543379990315236e-45
+    },
+    {
+      "chunk": 231,
+      "count": 4,
+      "posterior": 9.721433940498304e-48
+    },
+    {
+      "chunk": 245,
+      "count": 4,
+      "posterior": 9.721433940498304e-48
+    },
+    {
+      "chunk": 246,
+      "count": 4,
+      "posterior": 9.721433940498304e-48
+    },
+    {
+      "chunk": 238,
+      "count": 2,
+      "posterior": 1.8078105855535753e-52
+    },
+    {
+      "chunk": 241,
+      "count": 2,
+      "posterior": 1.8078105855535753e-52
+    },
+    {
+      "chunk": 242,
+      "count": 2,
+      "posterior": 1.8078105855535753e-52
+    },
+    {
+      "chunk": 248,
+      "count": 2,
+      "posterior": 1.8078105855535753e-52
+    },
+    {
+      "chunk": 253,
+      "count": 2,
+      "posterior": 1.8078105855535753e-52
+    },
+    {
+      "chunk": 260,
+      "count": 2,
+      "posterior": 1.8078105855535753e-52
+    },
+    {
+      "chunk": 213,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 217,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 230,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 232,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 247,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 254,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 255,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 256,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 261,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 263,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    },
+    {
+      "chunk": 264,
+      "count": 1,
+      "posterior": 7.795863438376587e-55
+    }
+  ]
+}

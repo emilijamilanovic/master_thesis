@@ -1,0 +1,36 @@
+# Secrets — never commit real keys
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# macOS / editors
+.DS_Store
+*.Rhistory
+.Rhistory
+
+# MS Office lock files (created while a document is open)
+~$*
+
+# LaTeX build artifacts (thesis/)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+main.pdf

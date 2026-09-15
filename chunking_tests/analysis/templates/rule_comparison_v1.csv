@@ -1,0 +1,5 @@
+prompt,rule,n_configs,size_mean,precision_mean,recall_mean,f1_mean
+v1,modal,6,13.3333,1.0,0.4597,0.5447
+v1,core,6,13.3333,1.0,0.4597,0.5447
+v1,envelope,6,20.6667,1.0,0.7127,0.7683
+v1,voter,6,21.0,1.0,0.7242,0.7797

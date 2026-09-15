@@ -1,0 +1,205 @@
+{
+  "n_runs": 100,
+  "key": "transaction_chunks",
+  "p_correct": 0.5607142857142857,
+  "p_noise": 0.012048192771084338,
+  "prior": 0.5,
+  "threshold": 0.9,
+  "selected_chunks": [
+    250,
+    226,
+    200,
+    236,
+    227,
+    201,
+    214,
+    224,
+    228,
+    215,
+    202,
+    199,
+    216
+  ],
+  "scores": [
+    {
+      "chunk": 250,
+      "count": 100,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 226,
+      "count": 98,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 200,
+      "count": 96,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 236,
+      "count": 93,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 227,
+      "count": 91,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 201,
+      "count": 76,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 214,
+      "count": 70,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 224,
+      "count": 67,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 228,
+      "count": 50,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 215,
+      "count": 39,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 202,
+      "count": 37,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 199,
+      "count": 33,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 216,
+      "count": 28,
+      "posterior": 1.0
+    },
+    {
+      "chunk": 246,
+      "count": 13,
+      "posterior": 1.144566741248245e-09
+    },
+    {
+      "chunk": 251,
+      "count": 13,
+      "posterior": 1.144566741248245e-09
+    },
+    {
+      "chunk": 252,
+      "count": 13,
+      "posterior": 1.144566741248245e-09
+    },
+    {
+      "chunk": 239,
+      "count": 10,
+      "posterior": 9.981962695439441e-16
+    },
+    {
+      "chunk": 203,
+      "count": 9,
+      "posterior": 9.536907033859345e-18
+    },
+    {
+      "chunk": 225,
+      "count": 8,
+      "posterior": 9.111694618336886e-20
+    },
+    {
+      "chunk": 195,
+      "count": 7,
+      "posterior": 8.705440718156259e-22
+    },
+    {
+      "chunk": 240,
+      "count": 6,
+      "posterior": 8.317300049193874e-24
+    },
+    {
+      "chunk": 217,
+      "count": 5,
+      "posterior": 7.946465015153382e-26
+    },
+    {
+      "chunk": 213,
+      "count": 4,
+      "posterior": 7.592164027216658e-28
+    },
+    {
+      "chunk": 237,
+      "count": 4,
+      "posterior": 7.592164027216658e-28
+    },
+    {
+      "chunk": 206,
+      "count": 3,
+      "posterior": 7.25365989861469e-30
+    },
+    {
+      "chunk": 207,
+      "count": 2,
+      "posterior": 6.930248310778217e-32
+    },
+    {
+      "chunk": 188,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    },
+    {
+      "chunk": 208,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    },
+    {
+      "chunk": 210,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    },
+    {
+      "chunk": 211,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    },
+    {
+      "chunk": 218,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    },
+    {
+      "chunk": 222,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    },
+    {
+      "chunk": 238,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    },
+    {
+      "chunk": 247,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    },
+    {
+      "chunk": 249,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    },
+    {
+      "chunk": 253,
+      "count": 1,
+      "posterior": 6.6212563478773216e-34
+    }
+  ]
+}

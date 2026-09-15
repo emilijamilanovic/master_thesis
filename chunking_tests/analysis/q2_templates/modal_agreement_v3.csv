@@ -1,0 +1,37 @@
+prompt,model_a,model_b,jaccard,identical
+v3,qwen3p7-plus,gpt-4o,0.3077,False
+v3,qwen3p7-plus,gpt-4.1-mini,0.3333,False
+v3,qwen3p7-plus,kimi-k3 (nores),0.3125,False
+v3,qwen3p7-plus,glm-5p2 (nores),0.3571,False
+v3,qwen3p7-plus,gemini-3.6-flash,0.4,False
+v3,qwen3p7-plus,gemini-3.5-flash,0.3333,False
+v3,qwen3p7-plus,claude-haiku-4-5-20251001,0.3333,False
+v3,qwen3p7-plus,gpt-4.1,0.3846,False
+v3,gpt-4o,gpt-4.1-mini,0.4167,False
+v3,gpt-4o,kimi-k3 (nores),0.5294,False
+v3,gpt-4o,glm-5p2 (nores),0.5,False
+v3,gpt-4o,gemini-3.6-flash,0.5294,False
+v3,gpt-4o,gemini-3.5-flash,0.45,False
+v3,gpt-4o,claude-haiku-4-5-20251001,0.5625,False
+v3,gpt-4o,gpt-4.1,0.6429,False
+v3,gpt-4.1-mini,kimi-k3 (nores),0.4,False
+v3,gpt-4.1-mini,glm-5p2 (nores),0.4615,False
+v3,gpt-4.1-mini,gemini-3.6-flash,0.4,False
+v3,gpt-4.1-mini,gemini-3.5-flash,0.3333,False
+v3,gpt-4.1-mini,claude-haiku-4-5-20251001,0.4286,False
+v3,gpt-4.1-mini,gpt-4.1,0.3846,False
+v3,kimi-k3 (nores),glm-5p2 (nores),0.75,False
+v3,kimi-k3 (nores),gemini-3.6-flash,0.875,False
+v3,kimi-k3 (nores),gemini-3.5-flash,0.7368,False
+v3,kimi-k3 (nores),claude-haiku-4-5-20251001,0.9333,False
+v3,kimi-k3 (nores),gpt-4.1,0.8,False
+v3,glm-5p2 (nores),gemini-3.6-flash,0.75,False
+v3,glm-5p2 (nores),gemini-3.5-flash,0.6316,False
+v3,glm-5p2 (nores),claude-haiku-4-5-20251001,0.8,False
+v3,glm-5p2 (nores),gpt-4.1,0.7857,False
+v3,gemini-3.6-flash,gemini-3.5-flash,0.8333,False
+v3,gemini-3.6-flash,claude-haiku-4-5-20251001,0.8125,False
+v3,gemini-3.6-flash,gpt-4.1,0.8,False
+v3,gemini-3.5-flash,claude-haiku-4-5-20251001,0.6842,False
+v3,gemini-3.5-flash,gpt-4.1,0.6667,False
+v3,claude-haiku-4-5-20251001,gpt-4.1,0.8571,False
