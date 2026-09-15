@@ -44,8 +44,8 @@ and 250-252 (14 of 180, window 130-309).
 
 ## Pipeline
 
-    1  pipeline/generation_chunks_test.py      N repeated selections  -> runs.json
-    2  pipeline/estimating_probs_gt_single.py  per-run metrics, rates -> stats.json
+    1  pipeline/generate_runs.py               N repeated selections  -> runs.json
+    2  pipeline/estimate_rates.py              per-run metrics, rates -> stats.json
     3  pipeline/voter_bayesian.py              Bayesian voter         -> selected.json
     4  pipeline/mode_analysis.py               templates, dependence  -> mode_analysis.json
     5  analysis_code/*.py                      cross-model analysis   -> results/analysis/

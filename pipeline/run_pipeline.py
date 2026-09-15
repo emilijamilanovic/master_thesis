@@ -4,9 +4,9 @@
 Executes the existing scripts in the correct order, wiring each step's
 output into the next:
 
-  1. generation   pipeline/generation_chunks_test.py
+  1. generation   pipeline/generate_runs.py
                   N repeated LLM selection runs      -> <out>/runs.json
-  2. estimation   pipeline/estimating_probs_gt_single.py
+  2. estimation   pipeline/estimate_rates.py
                   per-run metrics + pooled p-hats    -> <out>/stats.json
   3. sizing       pipeline/voter_stat.py (imported, advisory)
                   majority-vote run budget for the estimated p-hats
@@ -55,8 +55,8 @@ PIPELINE_DIR = Path(__file__).resolve().parent
 REPO_ROOT = PIPELINE_DIR.parent
 SCRIPTS = PIPELINE_DIR
 
-STEP_GENERATION = SCRIPTS / "generation_chunks_test.py"
-STEP_ESTIMATION = SCRIPTS / "estimating_probs_gt_single.py"
+STEP_GENERATION = SCRIPTS / "generate_runs.py"
+STEP_ESTIMATION = SCRIPTS / "estimate_rates.py"
 STEP_VOTER = SCRIPTS / "voter_bayesian.py"
 STEP_MODES = SCRIPTS / "mode_analysis.py"
 
