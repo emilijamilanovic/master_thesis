@@ -5,9 +5,9 @@ Prototype for modeling repeated LLM chunk-selection runs as draws from a small
 Runs on existing run files — no new API calls.
 
 ```bash
-python chunking_tests/mode_analysis.py \
-    chunking_tests/output/output_chunks_pandoc_500.json \
-    -o chunking_tests/output/mode_analysis.json
+python pipeline/mode_analysis.py \
+    results/output/output_chunks_pandoc_500.json \
+    -o results/output/mode_analysis.json
 ```
 
 ## Why this exists (motivation)

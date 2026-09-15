@@ -27,9 +27,9 @@ justified rather than chosen for convenience.
 Reads existing results only; writes nothing except its own CSV/report.
 
 Usage:
-    .venv/bin/python chunking_tests/eps_sensitivity.py
-    .venv/bin/python chunking_tests/eps_sensitivity.py \
-        --results chunking_tests/output/q2_fonts --gt "200-201,214,224-229,236,239,250-252"
+    python3 analysis_code/eps_sensitivity.py
+    python3 analysis_code/eps_sensitivity.py \
+        --results results/output/q2_fonts --gt "200-201,214,224-229,236,239,250-252"
 """
 
 import argparse
@@ -41,7 +41,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'pipeline'))
 from voter_bayesian import log_binom_pmf  # noqa: E402
 
 FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
@@ -155,13 +155,13 @@ def f1(sel, gt):
 
 def main():
     ap = argparse.ArgumentParser(description="Sensitivity of the voter to eps.")
-    ap.add_argument('--results', default='chunking_tests/output',
+    ap.add_argument('--results', default='results/output',
                     help='A result folder, or a directory containing several')
     ap.add_argument('--gt', default='391-419')
     ap.add_argument('--key', default='transaction_chunks')
     ap.add_argument('--prior', type=float, default=0.5)
     ap.add_argument('--threshold', type=float, default=0.9)
-    ap.add_argument('-o', '--out', default='chunking_tests/analysis/eps_sensitivity.csv')
+    ap.add_argument('-o', '--out', default='results/analysis/eps_sensitivity.csv')
     args = ap.parse_args()
 
     gt = parse_gt(args.gt)

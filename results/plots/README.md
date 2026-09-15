@@ -4,7 +4,7 @@ The ten figures used in Chapter 5 (font question, `q2_*`) and Appendix C
 (table question, `q1_*`), together with the scripts that draw them.
 
 The three scripts are copies of `compare_models_same_prompt.py`,
-`compare_templates.py` and `budget_curves.py` from the parent folder, changed
+`compare_templates.py` and `budget_curves.py` in analysis_code/, changed
 in four ways:
 
 * no figure titles, because the captions in the thesis explain each figure —
@@ -17,7 +17,7 @@ in four ways:
   the figures the thesis uses are written, so no CSVs are produced here.
 
 The originals in the parent folder are untouched and still write everything
-they always did into `chunking_tests/analysis/`.
+they always did into `results/analysis/`.
 
 ## Regenerating
 
@@ -25,33 +25,33 @@ Run from the repository root.
 
 Font question, Chapter 5:
 
-    python3 chunking_tests/plots/compare_models_same_prompt.py \
-        --results chunking_tests/output/q2_fonts \
+    python3 analysis_code/figures_compare_models_same_prompt.py \
+        --results results/output/q2_fonts \
         --gt '200-201,214,224-229,236,239,250-252' \
-        --prompt v3 --tag q2 --out chunking_tests/plots
+        --prompt v3 --tag q2 --out results/plots
 
-    python3 chunking_tests/plots/compare_templates.py \
-        --results chunking_tests/output/q2_fonts \
-        --tag q2 --out chunking_tests/plots
+    python3 analysis_code/figures_compare_templates.py \
+        --results results/output/q2_fonts \
+        --tag q2 --out results/plots
 
-    python3 chunking_tests/plots/budget_curves.py \
-        --results chunking_tests/output/q2_fonts \
+    python3 analysis_code/figures_budget_curves.py \
+        --results results/output/q2_fonts \
         --gt '200-201,214,224-229,236,239,250-252' \
-        --tag q2 --only openai_gpt41mini --out chunking_tests/plots
+        --tag q2 --only openai_gpt41mini --out results/plots
 
 Table question, Appendix C:
 
-    python3 chunking_tests/plots/compare_models_same_prompt.py \
-        --results chunking_tests/output/q1_tables \
-        --gt 391-419 --prompt v3 --tag q1 --out chunking_tests/plots
+    python3 analysis_code/figures_compare_models_same_prompt.py \
+        --results results/output/q1_tables \
+        --gt 391-419 --prompt v3 --tag q1 --out results/plots
 
-    python3 chunking_tests/plots/compare_templates.py \
-        --results chunking_tests/output/q1_tables \
-        --tag q1 --out chunking_tests/plots
+    python3 analysis_code/figures_compare_templates.py \
+        --results results/output/q1_tables \
+        --tag q1 --out results/plots
 
-    python3 chunking_tests/plots/budget_curves.py \
-        --results chunking_tests/output/q1_tables \
-        --gt 391-419 --tag q1 --only openai_gpt4o --out chunking_tests/plots
+    python3 analysis_code/figures_budget_curves.py \
+        --results results/output/q1_tables \
+        --gt 391-419 --tag q1 --only openai_gpt4o --out results/plots
 
 `--only` selects which configurations get their own two-curve figure; without
 it every configuration gets one. The thesis shows gpt-4.1-mini for the font

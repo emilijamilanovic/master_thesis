@@ -25,12 +25,12 @@ Realised error can be cross-checked without this script: it equals
 1 - decision_rules.per_chunk_bayes_voter.vs_gt.precision in
 mode_analysis.json, provided that file was produced with the same rates.
 
-  python chunking_tests/calibration_table.py \\
-      --results chunking_tests/output/q2_fonts \\
+  python analysis_code/calibration_table.py \\
+      --results results/output/q2_fonts \\
       --gt 200-201,214,224-229,236,239,250-252
 
-  python chunking_tests/calibration_table.py \\
-      --results chunking_tests/output/q1_tables --gt 391-419
+  python analysis_code/calibration_table.py \\
+      --results results/output/q1_tables --gt 391-419
 
 --gt is checked against the ground truth recorded in mode_analysis.json,
 so pointing the script at the wrong folder fails instead of printing

@@ -12,18 +12,20 @@ The thesis document itself is not in this repository.
 
     pandoc.md                 source document (the Pandoc user guide)
     pandoc.chunked.md         the same document split into 754 numbered chunks
-    run_pipeline.py           runs the pipeline steps in order
-    tools/                    provider clients and helpers
-    chunking_tests/           pipeline and analysis scripts
+    pipeline/                 the pipeline steps, the chunker, tools/ and
+                              run_pipeline.py, which runs the steps in order
+    analysis_code/            scripts that read the recorded runs and produce
+                              the tables and figures
+    results/
       output/                 the recorded runs
       analysis/               CSVs and figures produced from the runs
-      plots/                  the figures used in the thesis, and their scripts
+      plots/                  the ten figures used in the thesis
 
 ### The recorded runs
 
-    output/q2_fonts/          font question, nine models, 100 runs each
-    output/q1_tables/         table question, nine models, 100 runs each
-    output/q1_tables_v1/      table question, first prompt version, six models
+    results/output/q2_fonts/       font question, nine models, 100 runs each
+    results/output/q1_tables/      table question, nine models, 100 runs each
+    results/output/q1_tables_v1/   table question, first prompt version, six models
 
 Each configuration folder holds four files:
 
@@ -44,44 +46,45 @@ and 250-252 (14 of 180, window 130-309).
 
 ## Pipeline
 
-    1  generation_chunks_test.py        N repeated selections  -> runs.json
-    2  estimating_probs_gt_single.py    per-run metrics, rates -> stats.json
-    3  voter_bayesian.py                Bayesian voter         -> selected.json
-    4  mode_analysis.py                 templates, dependence  -> mode_analysis.json
-    5  compare_*.py, budget_curves.py   cross-model analysis   -> analysis/
+    1  pipeline/generation_chunks_test.py      N repeated selections  -> runs.json
+    2  pipeline/estimating_probs_gt_single.py  per-run metrics, rates -> stats.json
+    3  pipeline/voter_bayesian.py              Bayesian voter         -> selected.json
+    4  pipeline/mode_analysis.py               templates, dependence  -> mode_analysis.json
+    5  analysis_code/*.py                      cross-model analysis   -> results/analysis/
 
-Step 1 splits the document with `chunking_tests/chunker.py`, the
-heading-aware chunker described in Chapter 3.
+Step 1 splits the document with `pipeline/chunker.py`, the heading-aware
+chunker described in Chapter 3.
 
 Step 4 takes the rates as arguments. Without them it falls back to generic
-defaults and silently produces a different delivered set; `rerun_modes.sh`
+defaults and silently produces a different delivered set; `pipeline/rerun_modes.sh`
 re-runs it for every configuration with that configuration's own rates.
 
 ## Reproducing the reported results
 
 Delivered sets, majority vote against the Bayesian voter:
 
-    python chunking_tests/rule_sets.py --results chunking_tests/output/q1_tables --gt 391-419
+    python analysis_code/rule_sets.py --results results/output/q1_tables --gt 391-419
 
 Predicted against realised error, and the posterior saturation counts:
 
-    python chunking_tests/calibration_table.py \
-        --results chunking_tests/output/q2_fonts \
+    python analysis_code/calibration_table.py \
+        --results results/output/q2_fonts \
         --gt '200-201,214,224-229,236,239,250-252'
 
 Sensitivity to the clamp, and to the prior via `--prior`:
 
-    python chunking_tests/eps_sensitivity.py \
-        --results chunking_tests/output/q1_tables --gt 391-419 \
-        -o chunking_tests/analysis/eps_sensitivity_q1_all.csv
+    python analysis_code/eps_sensitivity.py \
+        --results results/output/q1_tables --gt 391-419 \
+        -o results/analysis/eps_sensitivity_q1_all.csv
 
 Run-budget curves:
 
-    python chunking_tests/budget_curves.py \
-        --results chunking_tests/output/q1_tables --gt 391-419 \
-        --out chunking_tests/analysis/q1_budget
+    python analysis_code/budget_curves.py \
+        --results results/output/q1_tables --gt 391-419 \
+        --out results/analysis/q1_budget
 
-The figures, and the commands that draw them, are in `chunking_tests/plots/`.
+The ten figures are in `results/plots/`; the scripts that draw them are
+`analysis_code/figures_*.py`, and `results/plots/README.md` lists the commands.
 
 ## Randomness
 

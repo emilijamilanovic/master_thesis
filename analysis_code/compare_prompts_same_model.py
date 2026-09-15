@@ -14,9 +14,9 @@ Per-run metrics are recomputed from runs.json rather than read from stats.json,
 so the ground truth can be changed with --gt without re-running the pipeline.
 
 Usage:
-    .venv/bin/python chunking_tests/compare_prompts_same_model.py
-    .venv/bin/python chunking_tests/compare_prompts_same_model.py \
-        --results chunking_tests/output --out analysis/prompts --gt 391-419
+    python3 analysis_code/compare_prompts_same_model.py
+    python3 analysis_code/compare_prompts_same_model.py \
+        --results results/output --out analysis/prompts --gt 391-419
 """
 
 import argparse
@@ -348,9 +348,9 @@ def plot_cross_prompt_overlap(by_model, prompts, out):
 def main():
     ap = argparse.ArgumentParser(
         description='Compare prompt versions within each model.')
-    ap.add_argument('--results', default='chunking_tests/output',
+    ap.add_argument('--results', default='results/output',
                     help='Folder containing the v<N>_<provider>_<model> dirs')
-    ap.add_argument('--out', default='chunking_tests/analysis/prompts',
+    ap.add_argument('--out', default='results/analysis/prompts',
                     help='Where to write CSVs and plots')
     ap.add_argument('--gt', default='391-419',
                     help='Ground-truth chunk ids, e.g. 391-419 (default)')

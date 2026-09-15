@@ -15,9 +15,9 @@ whatever mode_analysis.py used at generation time; it is read back from each
 file and a warning is printed if configurations disagree.
 
 Usage:
-    .venv/bin/python chunking_tests/compare_templates.py
-    .venv/bin/python chunking_tests/compare_templates.py \
-        --results chunking_tests/output --out analysis/templates
+    python3 analysis_code/compare_templates.py
+    python3 analysis_code/compare_templates.py \
+        --results results/output --out analysis/templates
 """
 
 import argparse
@@ -355,9 +355,9 @@ def plot_modal_agreement(rows, prompt, out):
 def main():
     ap = argparse.ArgumentParser(
         description='Statistics over the answer templates from mode_analysis.py.')
-    ap.add_argument('--results', default='chunking_tests/output',
+    ap.add_argument('--results', default='results/output',
                     help='Folder containing the v<N>_<provider>_<model> dirs')
-    ap.add_argument('--out', default='chunking_tests/analysis/templates',
+    ap.add_argument('--out', default='results/analysis/templates',
                     help='Where to write CSVs and plots')
     ap.add_argument('--exclude-provider', action='append', default=[],
                     help='Provider to exclude; repeatable (default: fireworks)')

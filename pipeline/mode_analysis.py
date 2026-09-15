@@ -19,8 +19,8 @@ Pipeline (steps 1-4 of the prototype):
      per-chunk sampling would predict.
 
 Usage:
-  python chunking_tests/mode_analysis.py chunking_tests/output/output_chunks_pandoc_500.json \
-      -o chunking_tests/output/mode_analysis.json
+  python pipeline/mode_analysis.py results/output/output_chunks_pandoc_500.json \
+      -o results/output/mode_analysis.json
 """
 
 import argparse

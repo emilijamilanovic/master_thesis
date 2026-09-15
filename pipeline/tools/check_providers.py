@@ -5,9 +5,9 @@ Sends a minimal completion request (a few tokens) to each provider's
 model shortcuts and reports which succeed. Use after adding a provider
 or changing a model id in tools/llm.py.
 
-  .venv/bin/python tools/check_providers.py                # default shortcuts
-  .venv/bin/python tools/check_providers.py --all          # every shortcut
-  .venv/bin/python tools/check_providers.py -p gemini      # one provider
+  python3 tools/check_providers.py                # default shortcuts
+  python3 tools/check_providers.py --all          # every shortcut
+  python3 tools/check_providers.py -p gemini      # one provider
 
 API keys are read from the environment; run_pipeline.py-style .env
 loading is done here too. Keys are never printed.
@@ -22,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import tools  # noqa: E402
 
 
-def load_dotenv(path=Path(__file__).resolve().parent.parent / '.env'):
+def load_dotenv(path=Path(__file__).resolve().parent.parent.parent / '.env'):
     if not path.exists():
         return
     for line in path.read_text().splitlines():

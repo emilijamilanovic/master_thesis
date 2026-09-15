@@ -16,7 +16,7 @@ Recompute after editing:
 ```bash
 python3 - <<'PY'
 import hashlib, re
-src = open('chunking_tests/generation_chunks_test.py', encoding='utf-8').read()
+src = open('pipeline/generation_chunks_test.py', encoding='utf-8').read()
 q = re.findall(r"conv\.append\(m\.user\(nonl\('''(.*?)'''\)\)\)", src, re.S)[-1]
 print(hashlib.sha256(q.replace('\n',' ').encode()).hexdigest())
 PY

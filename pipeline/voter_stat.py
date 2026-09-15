@@ -1,7 +1,7 @@
 from scipy.stats import binom
 
 # Defaults are the pooled estimates from the 500-run Pandoc experiment with
-# ground truth 391-419 (see chunking_tests/output/pandoc_single_stat_500.json).
+# ground truth 391-419 (see results/output/pandoc_single_stat_500.json).
 #
 # NOTE on p_noise: with GT 391-419 the Llama runs produced ZERO false positives
 # (0 out of 500 x 143 opportunities), so the plug-in estimate is exactly 0.

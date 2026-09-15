@@ -22,11 +22,11 @@ no API calls. Works on any result folder produced by run_pipeline.py.
 
 Usage:
     # one experiment folder, or a directory of them
-    .venv/bin/python chunking_tests/budget_curves.py \
-        --results chunking_tests/output/budget_n100 --out analysis/budget
+    python3 analysis_code/budget_curves.py \
+        --results results/output/q1_tables --out analysis/budget
 
-    .venv/bin/python chunking_tests/budget_curves.py \
-        --results chunking_tests/output/v1_openai_gpt4o --rule voter
+    python3 analysis_code/budget_curves.py \
+        --results results/output/v1_openai_gpt4o --rule voter
 """
 
 import argparse
@@ -52,13 +52,6 @@ FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
 # ran it. The model id cannot carry them, so they are appended to the label.
 CONFIG_MARKERS = ('nores',)
 
-# The thesis tables write some API identifiers differently; the figures follow
-# them so that a model is named the same way everywhere.
-NAME_OVERRIDES = {'claude-haiku-4-5-20251001': 'claude-haiku-4.5'}
-
-# Prefix for every figure written by this script; set from --tag in main().
-TAG = 'q0'
-
 
 def display_name(model_id, folder_token):
     """Short label for tables and plots.
@@ -71,7 +64,6 @@ def display_name(model_id, folder_token):
     different settings would be indistinguishable in a figure.
     """
     name = (model_id or folder_token).split('/')[-1]
-    name = NAME_OVERRIDES.get(name, name)
     for marker in CONFIG_MARKERS:
         if folder_token.endswith('_' + marker):
             name = f'{name} ({marker})'
@@ -309,11 +301,11 @@ def plot_two_curve(rows, cfg, out, rule):
     ax.set_xlabel('number of runs')
     ax.set_ylabel('score')
     ax.set_ylim(0, 1.05)
+    ax.set_title(f'Run budget — {cfg["label"]}  (rule: {rule})')
     ax.legend(fontsize=8, loc='lower right')
     ax.grid(alpha=0.3)
     fig.tight_layout()
-    fig.savefig(out / f'{TAG}_budget_{cfg["folder"].split("_", 2)[-1]}.png',
-                dpi=150)
+    fig.savefig(out / f'budget_{cfg["folder"]}.png', dpi=150)
     plt.close(fig)
 
 
@@ -353,7 +345,7 @@ def plot_combined(all_rows, out, rule):
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4.8))
     by_label = {}
     for r in all_rows:
-        by_label.setdefault(r['model'], []).append(r)
+        by_label.setdefault(f'{r["model"]} ({r["prompt"]})', []).append(r)
 
     for label, rows in sorted(by_label.items()):
         ns = [r['n_runs'] for r in rows]
@@ -371,8 +363,9 @@ def plot_combined(all_rows, out, rule):
         ax.set_title(title, fontsize=10)
         ax.grid(alpha=0.3)
     ax2.legend(fontsize=7, loc='lower right')
+    fig.suptitle(f'Run budget across configurations (rule: {rule})', fontsize=11)
     fig.tight_layout()
-    fig.savefig(out / f'{TAG}_budget_combined.png', dpi=150)
+    fig.savefig(out / 'budget_combined.png', dpi=150)
     plt.close(fig)
 
 
@@ -382,9 +375,9 @@ def plot_combined(all_rows, out, rule):
 def main():
     ap = argparse.ArgumentParser(
         description='Run-budget curves by subsampling existing runs.')
-    ap.add_argument('--results', default='chunking_tests/output/budget_n100',
+    ap.add_argument('--results', default='results/output/q1_tables',
                     help='A result folder, or a directory containing several')
-    ap.add_argument('--out', default='chunking_tests/analysis/budget',
+    ap.add_argument('--out', default='results/analysis/budget',
                     help='Where to write CSVs and plots')
     ap.add_argument('--gt', default='391-419', help='Ground-truth chunk ids')
     ap.add_argument('--key', default='transaction_chunks',
@@ -401,13 +394,7 @@ def main():
     ap.add_argument('--p-noise', type=float, default=0.01)
     ap.add_argument('--prior', type=float, default=0.5)
     ap.add_argument('--threshold', type=float, default=0.9)
-    ap.add_argument('--only', action='append', default=[],
-                    help='Draw per-configuration curves only for folders '
-                         'containing these tokens; repeatable')
-    ap.add_argument('--tag', required=True,
-                    help='Prefix for the figure names, e.g. q1 or q2')
     args = ap.parse_args()
-    globals()['TAG'] = args.tag
 
     if not Path(args.results).exists():
         sys.exit(f'ERROR: results path not found: {args.results}')
@@ -417,7 +404,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
 
     if args.rule == 'voter':
-        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'pipeline'))
 
     configs = discover(args.results, args.key)
     if not configs:
@@ -432,8 +419,9 @@ def main():
         rows, full_decision, n_patterns = curve_for(cfg, gt, args.rule,
                                                     args.draws, args)
         all_rows.extend(rows)
-        if not args.only or any(tok in cfg['folder'] for tok in args.only):
-            plot_two_curve(rows, cfg, out, args.rule)
+        write_csv(out / f'budget_{cfg["folder"]}.csv', rows)
+        plot_two_curve(rows, cfg, out, args.rule)
+        plot_discovery(rows, cfg, out)
 
         n_reach = first_n_reaching(rows, 'agreement_with_full_mean', args.target)
         n_disc = first_n_reaching(rows, 'patterns_discovered_frac', 0.95)
@@ -450,6 +438,7 @@ def main():
             'decision_size_at_full': rows[-1]['decision_size_mean'],
         })
 
+    write_csv(out / 'budget_summary.csv', summary)
     if len(configs) > 1:
         plot_combined(all_rows, out, args.rule)
 
@@ -473,7 +462,10 @@ def main():
         print('  NOTE: budgets above ~N/3 are estimated from few distinct '
               'subsamples; curves from short run sets are indicative only.')
 
-    print(f'\nWrote {TAG}_budget_combined.png and the selected per-configuration curves to {out}/')
+    print(f'\nWrote {2 * len(configs) + 1 + (1 if len(configs) > 1 else 0)} '
+          f'files to {out}/')
+    print('  budget_<folder>.csv/.png (two-curve), discovery_<folder>.png, '
+          'budget_summary.csv')
 
 
 if __name__ == '__main__':

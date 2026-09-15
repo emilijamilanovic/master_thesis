@@ -14,9 +14,9 @@ stats.json, so the ground truth can be changed with --gt without re-running the
 pipeline. stats.json is only used as a cross-check of the pooled estimates.
 
 Usage:
-    .venv/bin/python chunking_tests/compare_models_same_prompt.py
-    .venv/bin/python chunking_tests/compare_models_same_prompt.py \
-        --results chunking_tests/output --out analysis/models --gt 391-419
+    python3 analysis_code/compare_models_same_prompt.py
+    python3 analysis_code/compare_models_same_prompt.py \
+        --results results/output --out analysis/models --gt 391-419
 """
 
 import argparse
@@ -42,6 +42,13 @@ FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
 # ran it. The model id cannot carry them, so they are appended to the label.
 CONFIG_MARKERS = ('nores',)
 
+# The thesis tables write some API identifiers differently; the figures follow
+# them so that a model is named the same way everywhere.
+NAME_OVERRIDES = {'claude-haiku-4-5-20251001': 'claude-haiku-4.5'}
+
+# Prefix for every figure written by this script; set from --tag in main().
+TAG = 'q0'
+
 
 def display_name(model_id, folder_token):
     """Short label for tables and plots.
@@ -54,6 +61,7 @@ def display_name(model_id, folder_token):
     different settings would be indistinguishable in a figure.
     """
     name = (model_id or folder_token).split('/')[-1]
+    name = NAME_OVERRIDES.get(name, name)
     for marker in CONFIG_MARKERS:
         if folder_token.endswith('_' + marker):
             name = f'{name} ({marker})'
@@ -393,11 +401,9 @@ def plot_chunk_heatmap(rows, prompt, gt, out):
     ax.set_xticks(range(len(chunks)))
     ax.set_xticklabels([f'{c}*' if c in gt else str(c) for c in chunks],
                        rotation=90, fontsize=6)
-    ax.set_title(f'Selection frequency per chunk — prompt {prompt}\n'
-                 '(* = in ground truth; colour = fraction of runs selecting it)')
     fig.colorbar(im, ax=ax, label='fraction of runs', shrink=0.8)
     fig.tight_layout()
-    fig.savefig(out / f'chunk_frequency_{prompt}.png', dpi=150)
+    fig.savefig(out / f'{TAG}_chunk_frequency.png', dpi=150)
     plt.close(fig)
 
 
@@ -407,9 +413,9 @@ def plot_chunk_heatmap(rows, prompt, gt, out):
 def main():
     ap = argparse.ArgumentParser(
         description='Compare models within each prompt version.')
-    ap.add_argument('--results', default='chunking_tests/output',
+    ap.add_argument('--results', default='results/output',
                     help='Folder containing the v<N>_<provider>_<model> dirs')
-    ap.add_argument('--out', default='chunking_tests/analysis/models',
+    ap.add_argument('--out', default='results/analysis/models',
                     help='Where to write CSVs and plots')
     ap.add_argument('--gt', default='391-419',
                     help='Ground-truth chunk ids, e.g. 391-419 (default)')
@@ -417,7 +423,10 @@ def main():
                     help='Provider to exclude; repeatable (default: fireworks)')
     ap.add_argument('--prompt', action='append',
                     help='Restrict to these prompt versions, e.g. --prompt v3')
+    ap.add_argument('--tag', required=True,
+                    help='Prefix for the figure names, e.g. q1 or q2')
     args = ap.parse_args()
+    globals()['TAG'] = args.tag
 
     results_dir = Path(args.results)
     if not results_dir.is_dir():
@@ -451,11 +460,6 @@ def main():
             r['rank_f1'] = i
         all_rows.extend(group)
 
-        write_csv(out / f'model_comparison_{prompt}.csv', group)
-        plot_f1_by_model(group, prompt, out)
-        plot_precision_recall(group, prompt, out)
-        plot_stability(group, prompt, out)
-        plot_size_distribution(group, prompt, gt, out)
         plot_chunk_heatmap(group, prompt, gt, out)
 
         # ---- terminal summary for this prompt ----------------------------
@@ -484,12 +488,8 @@ def main():
             print('  parse failures      : '
                   + ', '.join(f'{m} ({n})' for m, n in failed))
 
-    write_csv(out / 'model_comparison_all.csv', all_rows)
 
-    print(f'\nWrote {len(by_prompt) * 5 + 1} files to {out}/')
-    print('  model_comparison_<prompt>.csv, model_comparison_all.csv')
-    print('  f1_by_model / precision_recall / stability / selection_size / '
-          'chunk_frequency  (one .png per prompt)')
+    print(f'\nWrote {TAG}_chunk_frequency.png to {out}/')
 
 
 if __name__ == '__main__':

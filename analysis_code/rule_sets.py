@@ -10,8 +10,8 @@ is the rule budget_curves.py uses.
 Nothing here re-runs the voter or changes any stored result.
 
 Usage:
-    .venv/bin/python chunking_tests/rule_sets.py \
-        --results chunking_tests/output/q2_fonts \
+    python3 analysis_code/rule_sets.py \
+        --results results/output/q2_fonts \
         --gt "200-201,214,224-229,236,239,250-252"
 """
 import argparse

@@ -4,16 +4,16 @@
 Executes the existing scripts in the correct order, wiring each step's
 output into the next:
 
-  1. generation   chunking_tests/generation_chunks_test.py
+  1. generation   pipeline/generation_chunks_test.py
                   N repeated LLM selection runs      -> <out>/runs.json
-  2. estimation   chunking_tests/estimating_probs_gt_single.py
+  2. estimation   pipeline/estimating_probs_gt_single.py
                   per-run metrics + pooled p-hats    -> <out>/stats.json
                   (only meaningful for the labeled Pandoc question)
-  3. sizing       chunking_tests/voter_stat.py (imported, advisory)
+  3. sizing       pipeline/voter_stat.py (imported, advisory)
                   majority-vote run budget for the estimated p-hats
-  4. voter        chunking_tests/voter_bayesian.py
+  4. voter        pipeline/voter_bayesian.py
                   Bayesian selection                 -> <out>/selected.json
-  5. modes        chunking_tests/mode_analysis.py
+  5. modes        pipeline/mode_analysis.py
                   answer-template analysis           -> <out>/mode_analysis.json
 
 Two variants (--pipeline):
@@ -24,20 +24,20 @@ Two variants (--pipeline):
 
 Typical uses
   # full pipeline, 100 fresh runs (needs the provider key in .env):
-  .venv/bin/python run_pipeline.py --runs 100
+  python3 run_pipeline.py --runs 100
 
   # original pipeline without the template analysis:
-  .venv/bin/python run_pipeline.py --runs 100 --pipeline classic
+  python3 run_pipeline.py --runs 100 --pipeline classic
 
   # a specific model for the cross-model study:
-  .venv/bin/python run_pipeline.py --runs 100 --provider anthropic --model sonnet
+  python3 run_pipeline.py --runs 100 --provider anthropic --model sonnet
 
   # analyze an existing runs file, no API calls:
-  .venv/bin/python run_pipeline.py \
-      --runs-file chunking_tests/output/output_chunks_pandoc_500.json
+  python3 run_pipeline.py \
+      --runs-file results/output/output_chunks_pandoc_500.json
 
   # show the plan without executing anything:
-  .venv/bin/python run_pipeline.py --runs 100 --dry-run
+  python3 run_pipeline.py --runs 100 --dry-run
 
 Unlabeled/deployment mode (--no-gt) skips steps 2-3 and requires
 explicit --p-correct/--p-noise for the voter.
@@ -59,8 +59,9 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent
-SCRIPTS = REPO_ROOT / "chunking_tests"
+PIPELINE_DIR = Path(__file__).resolve().parent
+REPO_ROOT = PIPELINE_DIR.parent
+SCRIPTS = PIPELINE_DIR
 
 STEP_GENERATION = SCRIPTS / "generation_chunks_test.py"
 STEP_ESTIMATION = SCRIPTS / "estimating_probs_gt_single.py"
@@ -112,7 +113,7 @@ def main():
         description="Run the full chunk-selection pipeline.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     gen = ap.add_argument_group("generation")
-    gen.add_argument("--source", default="chunking_tests",
+    gen.add_argument("--source", default=".",
                      help="Directory containing the source corpus (pandoc.md)")
     gen.add_argument("--runs", type=int, default=100,
                      help="Number of LLM runs to generate")
@@ -149,7 +150,7 @@ def main():
                     help="'full' = steps 1-5 (with answer-template analysis); "
                          "'classic' = steps 1-4, the original pre-template pipeline")
     ap.add_argument("-o", "--output-dir",
-                    help="Output directory (default: chunking_tests/output/pipeline_<timestamp>)")
+                    help="Output directory (default: results/output/pipeline_<timestamp>)")
     ap.add_argument("--dry-run", action="store_true",
                     help="Print what would be executed without running anything")
     args = ap.parse_args()
@@ -184,7 +185,7 @@ def main():
             problems.append(f"no pandoc*.md corpus in source directory: {source}")
         # Which provider key is needed depends on --provider (or the
         # default configured in tools/llm.py).
-        sys.path.insert(0, str(REPO_ROOT))
+        sys.path.insert(0, str(PIPELINE_DIR))
         try:
             import tools
             provider = args.provider or tools.llm.configs['defaults']['include'][0]
@@ -244,7 +245,7 @@ def main():
     if not skip_generation:
         # Resolve what will actually be called, so the plan is unambiguous.
         try:
-            sys.path.insert(0, str(REPO_ROOT))
+            sys.path.insert(0, str(PIPELINE_DIR))
             import tools
             prov = args.provider or tools.llm.configs['defaults']['include'][0]
             shortcuts = tools.llm.configs.get(prov, {}).get('model_shortcuts', {})
@@ -309,7 +310,7 @@ def main():
         print("STEP 3: sizing — skipped (--no-gt)")
     elif args.dry_run:
         print("\nSTEP 3: sizing — [dry-run] would compute majority-vote run "
-              "budget via chunking_tests/voter_stat.find_min_runs")
+              "budget via pipeline/voter_stat.find_min_runs")
     else:
         banner(3, "majority-vote run-budget check (advisory)")
         sys.path.insert(0, str(SCRIPTS))
