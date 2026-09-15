@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import argparse
 import tools
 import re
-from rag.using_llm.test_chunker import Chunker
+from chunker import Chunker
 import json
 import ast
 import hashlib

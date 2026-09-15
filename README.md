@@ -14,7 +14,6 @@ The thesis document itself is not in this repository.
     pandoc.chunked.md         the same document split into 754 numbered chunks
     run_pipeline.py           runs the pipeline steps in order
     tools/                    provider clients and helpers
-    rag/using_llm/            the chunker that splits the document into chunks
     chunking_tests/           pipeline and analysis scripts
       output/                 the recorded runs
       analysis/               CSVs and figures produced from the runs
@@ -50,6 +49,9 @@ and 250-252 (14 of 180, window 130-309).
     3  voter_bayesian.py                Bayesian voter         -> selected.json
     4  mode_analysis.py                 templates, dependence  -> mode_analysis.json
     5  compare_*.py, budget_curves.py   cross-model analysis   -> analysis/
+
+Step 1 splits the document with `chunking_tests/chunker.py`, the
+heading-aware chunker described in Chapter 3.
 
 Step 4 takes the rates as arguments. Without them it falls back to generic
 defaults and silently produces a different delivered set; `rerun_modes.sh`
