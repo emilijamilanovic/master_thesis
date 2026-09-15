@@ -14,6 +14,7 @@ The thesis document itself is not in this repository.
     pandoc.chunked.md         the same document split into 754 numbered chunks
     run_pipeline.py           runs the pipeline steps in order
     tools/                    provider clients and helpers
+    rag/using_llm/            the chunker that splits the document into chunks
     chunking_tests/           pipeline and analysis scripts
       output/                 the recorded runs
       analysis/               CSVs and figures produced from the runs
