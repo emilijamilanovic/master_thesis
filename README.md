@@ -84,17 +84,6 @@ Run-budget curves:
 The ten figures are in `results/plots/`; the scripts that draw them are
 `analysis_code/figures_*.py`, and `results/plots/README.md` lists the commands.
 
-## Randomness
-
-The analyses are seeded, so re-running them on the recorded runs reproduces the
-reported values exactly: the bootstrap intervals use 1000 resamples, the
-independence check simulates 10,000 runs, and the budget curves average 200
-subsamples at each budget.
-
-Generation is deliberately not reproducible. Repeating it produces different
-selections, because that variation is what the thesis studies. Every reported
-result is computed from the recorded runs rather than from fresh generation.
-
 ## Environment
 
 Python 3.12.
