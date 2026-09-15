@@ -1,17 +1,8 @@
-# Master thesis — chunk-selection pipeline
 # Python 3.12 (venv: python3.12 -m venv .venv)
 #
 # Install:  .venv/bin/python -m pip install -r requirements.txt
 
-# --- Core: required to run the chunk-selection pipeline ---
 openai>=1.0        # tools/llm.py: chat completions (streaming) + embeddings
 numpy              # tools/veclist.py (pulled in via tools/__init__.py); rag/ragtest.py
 scipy              # chunking_tests/voter_stat.py: binomial sample-size calculation
 
-# --- Optional: only for the exploratory LangChain / FAISS experiments in rag/ ---
-# Not used by the main pipeline. Uncomment to install.
-# langchain
-# langchain-openai
-# langchain-core
-# langchain-community
-# faiss-cpu
