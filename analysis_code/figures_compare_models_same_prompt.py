@@ -5,10 +5,6 @@ Reads the pipeline output folders produced by run_pipeline.py, which are named
     v<N>_<provider>_<model>/          e.g. v3_openai_gpt4o/
 and each contain runs.json (+ stats.json, selected.json, mode_analysis.json).
 
-For every prompt version it builds one table with one row per model, ranks the
-models, and flags which are consistently good and which are unstable across the
-10 repeated runs.
-
 All per-run metrics are recomputed here from runs.json rather than read from
 stats.json, so the ground truth can be changed with --gt without re-running the
 pipeline. stats.json is only used as a cross-check of the pooled estimates.
@@ -29,7 +25,7 @@ from itertools import combinations
 from pathlib import Path
 
 import matplotlib
-matplotlib.use('Agg')          # headless: write files, never open a window
+matplotlib.use('Agg')  
 import matplotlib.pyplot as plt
 
 # Folder naming convention written by run_pipeline.py -o
@@ -38,8 +34,6 @@ FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
 # ---------------------------------------------------------------------------
 # Display names
 # ---------------------------------------------------------------------------
-# Folder-name suffixes that record how a batch was run rather than which model
-# ran it. The model id cannot carry them, so they are appended to the label.
 CONFIG_MARKERS = ('nores',)
 
 # The thesis tables write some API identifiers differently; the figures follow
@@ -124,7 +118,6 @@ def load_config(folder):
         'folder': folder,
         'prompt': 'v' + m.group('prompt'),
         'provider': m.group('provider'),
-        # Prefer the real model id recorded per run; fall back to the folder token
         'model': display_name(meta.get('model'), m.group('model')),
         'model_short': m.group('model'),
         'runs': runs,
@@ -215,8 +208,6 @@ def analyse(cfg, gt):
     rates = {c: k / n for c, k in freq.items()}
     always = [c for c, p in rates.items() if p == 1.0]
     variable = [c for c, p in rates.items() if 0 < p < 1.0]
-    # Mean Bernoulli variance over chunks that were ever selected: 0 when every
-    # chunk is either always or never chosen, max 0.25 at a 50/50 coin flip.
     chunk_var = mean(p * (1 - p) for p in rates.values()) if rates else 0.0
 
     # --- aggregation rules over the 10 runs, scored against GT ---
@@ -247,7 +238,6 @@ def analyse(cfg, gt):
         'fp_mean': mean(p['fp'] for p in per_run),
         'fn_mean': mean(p['fn'] for p in per_run),
 
-        # pooled inclusion probabilities (same definition as the pipeline)
         'p_correct': (sum(p['tp'] for p in per_run) / (len(per_run) * len(gt))
                       if per_run and gt else 0.0),
         'p_noise': (sum(p['fp'] for p in per_run)
@@ -364,8 +354,6 @@ def plot_size_distribution(rows, prompt, gt, out):
     """Box plot of how many chunks each model selects per run."""
     rows = sorted(rows, key=lambda r: r['size_mean'])
     fig, ax = plt.subplots(figsize=(max(7, len(rows) * 0.85), 4.5))
-    # Set tick labels separately: boxplot's own label kwarg was renamed
-    # between matplotlib versions (labels -> tick_labels).
     ax.boxplot([r['_sizes'] for r in rows], showmeans=True)
     ax.set_xticks(range(1, len(rows) + 1))
     ax.set_xticklabels([r['model'] for r in rows])

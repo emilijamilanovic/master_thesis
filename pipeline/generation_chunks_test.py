@@ -132,20 +132,11 @@ Respond only with a list of paragraph numbers in the format: [x, y, z].
 }
     return dict_chunks
 
-
-# def gen_bkg(src, out):
-#     out.section('Transaction background e aggiornamento')
-
-#     gen_bkg_nota(src, out)
-#     # gen_bkg_rel(src, out)
-
 def generate(src, temperature, provider=None, model=None):
 
     # out.chunk('NOTA DEL RICHIEDENTE\n')
 
     return gen_bkg_nota(src, temperature, provider, model)
-
-
 
 # ****************************************************************************
 # Main

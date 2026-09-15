@@ -1,15 +1,5 @@
 from scipy.stats import binom
 
-# Defaults are the pooled estimates from the 500-run Pandoc experiment with
-# ground truth 391-419 (from the original 500-run experiment, whose runs are not in this repository).
-#
-# NOTE on p_noise: with GT 391-419 the Llama runs produced ZERO false positives
-# (0 out of 500 x 143 opportunities), so the plug-in estimate is exactly 0.
-# A zero rate cannot be used directly -- it makes any single inclusion
-# infinitely strong evidence. The default below is the "rule of three" 95%
-# upper bound, 3/(N*U) = 3/71500, which is the conservative standard estimate
-# for an unobserved event. Revisit if a smoothing convention is adopted
-# pipeline-wide.
 def find_min_runs(p_correct=0.5924, p_noise=4.2e-5, conf_thresh=0.90, error_thresh=0.01, max_n=1000):
     '''
     p_correct = probability the LLM includes a truly relevant chunk in a single run

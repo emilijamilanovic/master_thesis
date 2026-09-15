@@ -8,7 +8,6 @@ output into the next:
                   N repeated LLM selection runs      -> <out>/runs.json
   2. estimation   pipeline/estimating_probs_gt_single.py
                   per-run metrics + pooled p-hats    -> <out>/stats.json
-                  (only meaningful for the labeled Pandoc question)
   3. sizing       pipeline/voter_stat.py (imported, advisory)
                   majority-vote run budget for the estimated p-hats
   4. voter        pipeline/voter_bayesian.py
@@ -42,13 +41,6 @@ Typical uses
 Unlabeled/deployment mode (--no-gt) skips steps 2-3 and requires
 explicit --p-correct/--p-noise for the voter.
 
-TODO (needs a decision, not code): the question prompt and the ground
-truth are currently hardcoded for the Pandoc "table formats" question
-(prompt in generation_chunks_test.py, GT in estimating_probs_gt_single.py
-and mode_analysis.py --gt). Running new questions requires editing the
-prompt; multi-question support would need a small refactor.
-TODO: mode_analysis.py has no no-GT mode; under --no-gt its "vs_gt"
-numbers are computed against the default range and must be ignored.
 """
 
 import argparse

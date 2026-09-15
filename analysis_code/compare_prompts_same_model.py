@@ -29,7 +29,7 @@ from itertools import combinations
 from pathlib import Path
 
 import matplotlib
-matplotlib.use('Agg')          # headless: write files, never open a window
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
@@ -37,8 +37,6 @@ FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
 # ---------------------------------------------------------------------------
 # Display names
 # ---------------------------------------------------------------------------
-# Folder-name suffixes that record how a batch was run rather than which model
-# ran it. The model id cannot carry them, so they are appended to the label.
 CONFIG_MARKERS = ('nores',)
 
 

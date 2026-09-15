@@ -1,7 +1,7 @@
 #!/bin/bash
 # Re-run mode_analysis.py with each configuration's own estimated rates.
 # Without --p-correct/--p-noise the script falls back to generic defaults
-# (0.614 / 0.0124), which is what produced the gemini-3.5-flash discrepancy.
+# (0.614 / 0.0124).
 set -e
 
 run_dir () {                      # $1 = results dir, $2 = ground truth spec

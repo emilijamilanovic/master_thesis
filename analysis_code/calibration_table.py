@@ -43,7 +43,6 @@ import json
 import sys
 from pathlib import Path
 
-# Display order only. Folders not listed here are appended, sorted by name.
 PREFERRED = [
     'v3_openai_gpt41', 'v3_openai_gpt41mini', 'v3_openai_gpt4o',
     'v3_anthropic_haiku', 'v3_gemini_flash35', 'v3_gemini_flash36',

@@ -30,7 +30,7 @@ from itertools import combinations
 from pathlib import Path
 
 import matplotlib
-matplotlib.use('Agg')          # headless: write files, never open a window
+matplotlib.use('Agg') 
 import matplotlib.pyplot as plt
 
 FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
@@ -38,8 +38,6 @@ FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
 # ---------------------------------------------------------------------------
 # Display names
 # ---------------------------------------------------------------------------
-# Folder-name suffixes that record how a batch was run rather than which model
-# ran it. The model id cannot carry them, so they are appended to the label.
 CONFIG_MARKERS = ('nores',)
 
 
@@ -159,9 +157,6 @@ def summarise(cfg):
     modal = templates[0]
     second = templates[1] if len(templates) > 1 else None
 
-    # Dependence: how much wider the per-run selection size is than an
-    # independent-chunk model with the same marginals would predict.
-    # Ratio is only meaningful when there is a varying block at all.
     std = ic.get('selection_size_std', {})
     obs, ind = std.get('observed', 0.0), std.get('independent_model', 0.0)
     ratio = (obs / ind) if ind > 0 else None
@@ -214,7 +209,6 @@ def summarise(cfg):
         row[f'{name}_recall'] = g.get('recall', 0.0)
         row[f'{name}_f1'] = g.get('f1', 0.0)
 
-    # Template contents, expanded, for cross-configuration comparison
     row['_templates'] = [(t.get('weight', 0.0), parse_chunk_spec(t.get('chunks', '')))
                          for t in templates]
     row['_modal_set'] = row['_templates'][0][1] if row['_templates'] else set()

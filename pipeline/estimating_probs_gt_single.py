@@ -2,14 +2,6 @@ import json
 import argparse
 from statistics import mean
 
-# IDs follow the pipeline numbering (Source.fulltext() -> Chunker, 754 chunks),
-# the same numbering the LLM sees in the prompt.
-# Range covers the whole "Tables" section: 391 is the section heading, 392 the
-# sentence introducing the four table kinds, 393-394 the table_captions
-# extension, and 395-419 the four format subsections (simple, multiline, grid,
-# pipe). The task is to cite EVERY chunk describing a table format, so the
-# section intro and caption material are included.
-
 GROUND_TRUTH_IDS = set(range(391, 420))
 
 # GROUND_TRUTH_IDS = set([200, 201, 214, 224, 225, 226, 227, 228, 229, 236, 239, 250, 251, 252])

@@ -13,12 +13,7 @@ subsample, and measures how the decision behaves as n grows:
   * spread of the p_correct estimate          -- how stable the parameter
     feeding the voter is at budget n.
 
-The gap between the first two curves is the validity ceiling: the part of the
-error that more sampling cannot remove. Prior work (Yagubyan 2026) measures
-only the first, because it has no ground truth.
-
-Everything is computed by resampling runs that already exist, so this costs
-no API calls. Works on any result folder produced by run_pipeline.py.
+Works on any result folder produced by run_pipeline.py.
 
 Usage:
     # one experiment folder, or a directory of them
@@ -40,7 +35,7 @@ from collections import Counter
 from pathlib import Path
 
 import matplotlib
-matplotlib.use('Agg')          # headless: write files, never open a window
+matplotlib.use('Agg') 
 import matplotlib.pyplot as plt
 
 FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
@@ -48,8 +43,6 @@ FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
 # ---------------------------------------------------------------------------
 # Display names
 # ---------------------------------------------------------------------------
-# Folder-name suffixes that record how a batch was run rather than which model
-# ran it. The model id cannot carry them, so they are appended to the label.
 CONFIG_MARKERS = ('nores',)
 
 # The thesis tables write some API identifiers differently; the figures follow
@@ -175,8 +168,7 @@ def decide(sets, rule, p_correct, p_noise, prior, threshold):
     if rule == 'intersection':
         return frozenset(c for c, k in counts.items() if k == n)
     if rule == 'voter':
-        # Imported lazily so the script still runs if the voter is unavailable
-        from voter_bayesian import posterior_relevance
+        from pipeline.voter_bayesian import posterior_relevance
         return frozenset(
             c for c, k in counts.items()
             if posterior_relevance(k, n, p_correct, p_noise, prior) >= threshold)
@@ -417,7 +409,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
 
     if args.rule == 'voter':
-        sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'pipeline'))
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  
 
     configs = discover(args.results, args.key)
     if not configs:

@@ -32,14 +32,6 @@ def posterior_relevance(k: int, n: int, p_correct: float, p_noise: float, prior:
     logit_prior = math.log(prior) - math.log(1 - prior)
     logit_post  = logit_prior + log_lr
 
-    # Numerically stable logistic. The two forms
-    #     1/(1+exp(-x))   and   exp(x)/(1+exp(x))
-    # are algebraically identical (multiply the first by exp(x)/exp(x)), but
-    # only one is computable at each extreme: exp() of a large positive number
-    # raises OverflowError, while exp() of a large negative number underflows
-    # harmlessly to 0. Branching on the sign always exponentiates a
-    # non-positive value. Needed when p_correct is near 1, where a chunk
-    # missing from even a few runs gives a hugely negative logit.
     if logit_post >= 0:
         return 1.0 / (1.0 + math.exp(-logit_post))
     z = math.exp(logit_post)
@@ -94,10 +86,6 @@ def vote_chunks(runs_json_path: str,
     else:
         filtered = results
 
-    # top_k cap
-    # if top_k is not None and top_k < len(filtered):
-    #     filtered = filtered[:top_k]
-
     selected = [d["chunk"] for d in filtered]
 
     out = {
@@ -119,12 +107,6 @@ def main():
     ap.add_argument("--key", default="transaction_chunks", help="Key with predicted chunk list. Default: transaction_chunks")
     ap.add_argument("--p-correct", type=float, required=True, help="Per-run inclusion prob for a truly relevant chunk.")
     ap.add_argument("--p-noise",   type=float, required=True, help="Per-run inclusion prob for an irrelevant chunk.")
-    # 0.5 (uninformative) matches run_pipeline.py and mode_analysis.py, so a
-    # direct invocation reproduces what the pipeline did. At the run counts
-    # used here the likelihood ratio dominates the prior anyway: the count
-    # decision boundary moves ~0.2 counts per 100 runs between prior 0.3 and
-    # 0.7. The base rate (|GT|/|slice|, about 0.17) is the other defensible
-    # choice. See the note in the root README.
     ap.add_argument("--prior",     type=float, default=0.5,   help="Prior probability a random chunk is relevant. Default: 0.5")
     ap.add_argument("--threshold", type=float, default=0.90,  help="Posterior threshold to accept a chunk. Default: 0.90")
     ap.add_argument("--top-k",     type=int, default=None,    help="Optional cap on number of chunks to keep (after threshold).")

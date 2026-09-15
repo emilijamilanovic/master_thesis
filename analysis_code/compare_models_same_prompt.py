@@ -29,7 +29,7 @@ from itertools import combinations
 from pathlib import Path
 
 import matplotlib
-matplotlib.use('Agg')          # headless: write files, never open a window
+matplotlib.use('Agg')  
 import matplotlib.pyplot as plt
 
 # Folder naming convention written by run_pipeline.py -o
@@ -38,8 +38,6 @@ FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
 # ---------------------------------------------------------------------------
 # Display names
 # ---------------------------------------------------------------------------
-# Folder-name suffixes that record how a batch was run rather than which model
-# ran it. The model id cannot carry them, so they are appended to the label.
 CONFIG_MARKERS = ('nores',)
 
 
@@ -207,11 +205,8 @@ def analyse(cfg, gt):
     rates = {c: k / n for c, k in freq.items()}
     always = [c for c, p in rates.items() if p == 1.0]
     variable = [c for c, p in rates.items() if 0 < p < 1.0]
-    # Mean Bernoulli variance over chunks that were ever selected: 0 when every
-    # chunk is either always or never chosen, max 0.25 at a 50/50 coin flip.
     chunk_var = mean(p * (1 - p) for p in rates.values()) if rates else 0.0
 
-    # --- aggregation rules over the 10 runs, scored against GT ---
     union = set().union(*sets) if sets else set()
     inter = set.intersection(*sets) if sets else set()
     majority = {c for c, p in rates.items() if p >= 0.5}
@@ -356,8 +351,6 @@ def plot_size_distribution(rows, prompt, gt, out):
     """Box plot of how many chunks each model selects per run."""
     rows = sorted(rows, key=lambda r: r['size_mean'])
     fig, ax = plt.subplots(figsize=(max(7, len(rows) * 0.85), 4.5))
-    # Set tick labels separately: boxplot's own label kwarg was renamed
-    # between matplotlib versions (labels -> tick_labels).
     ax.boxplot([r['_sizes'] for r in rows], showmeans=True)
     ax.set_xticks(range(1, len(rows) + 1))
     ax.set_xticklabels([r['model'] for r in rows])

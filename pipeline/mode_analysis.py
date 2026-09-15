@@ -1,12 +1,5 @@
 """Answer-mode ("menu") analysis of repeated LLM chunk-selection runs.
 
-Motivation: the per-chunk binomial voter treats every chunk as an independent
-coin flip across runs. Inspection of the 500-run Pandoc data shows this is
-false: runs concentrate on a handful of recurring whole answers (one pattern
-covers ~51% of runs) and blocks of chunks move in and out together. This
-script makes that structure explicit and quantifies what the independence
-assumption gets wrong. See mode_analysis.md for the full write-up.
-
 Pipeline (steps 1-4 of the prototype):
   1. Group runs by identical selection set -> raw pattern menu.
   2. Merge near-duplicate patterns (small Hamming distance) into templates;

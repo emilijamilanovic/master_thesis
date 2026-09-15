@@ -6,8 +6,6 @@ split into numbered chunks, a model is asked repeatedly which chunks answer a
 question, and the repeated answers are combined into one final set whose error
 is estimated.
 
-The thesis document itself is not in this repository.
-
 ## Layout
 
     pandoc.md                 source document (the Pandoc user guide)

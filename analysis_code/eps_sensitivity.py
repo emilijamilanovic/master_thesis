@@ -7,19 +7,6 @@ voter_bayesian.py clamps the estimated rates away from 0 and 1:
     p_correct = min(max(p_correct, eps), 1 - eps)
     p_noise   = min(max(p_noise,   eps), 1 - eps)
 
-The clamp exists to avoid log(0). It only ever binds when an estimate is
-exactly 0 or exactly 1, which happens when a model is cleanly separated:
-it never selects outside the ground truth (p_noise = 0), or it selects
-every ground-truth chunk in every run (p_correct = 1).
-
-The question this script answers empirically: when the clamp binds, does the
-value of eps change the decision? Two views are reported.
-
-  1. Analytic: the minimum number of runs a chunk must appear in before the
-     voter selects it, as a function of eps.
-  2. Empirical: the actual selected sets for every recorded experiment,
-     recomputed at each eps and compared against the current default.
-
 If the selections are stable across several orders of magnitude, eps is a
 safeguard. If they move, eps is a model parameter in disguise and has to be
 justified rather than chosen for convenience.
@@ -41,8 +28,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'pipeline'))
-from voter_bayesian import log_binom_pmf  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent)) 
+from pipeline.voter_bayesian import log_binom_pmf 
 
 FOLDER_RE = re.compile(r'^v(?P<prompt>\d+)_(?P<provider>[a-z]+)_(?P<model>.+)$')
 EPS_GRID = [1e-3, 1e-4, 1e-6, 1e-8, 1e-10, 1e-12]
@@ -119,7 +106,6 @@ def load(folder, key):
         'folder': folder.name,
         'n': len(valid),
         'counts': counts,
-        # the pooled estimates the pipeline actually fed to the voter
         'p_correct': stats.get('p_correct_hat'),
         'p_noise': stats.get('p_noise_hat'),
     }

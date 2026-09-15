@@ -102,11 +102,6 @@ class Chunker:
 
 c = Chunker()
 
-# NOTE: running this file directly chunks the RAW file text, which yields
-# different chunk numbering than the pipeline (748 vs 754 chunks for pandoc.md).
-# The pipeline loads sources through tools.source (SourceFile.fulltext()) first.
-# Do NOT use this __main__ to regenerate pandoc.chunked.md — see the
-# "Regenerating pandoc.chunked.md" recipe in the root README.
 if __name__ == '__main__':
     for path in sys.argv[1:]:
         with open(path, encoding='utf-8') as f:
