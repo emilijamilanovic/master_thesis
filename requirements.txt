@@ -1,8 +1,8 @@
 # Python 3.12 (venv: python3.12 -m venv .venv)
-#
+
 # Install:  .venv/bin/python -m pip install -r requirements.txt
 
-openai>=1.0        # tools/llm.py: chat completions (streaming) + embeddings
-numpy              # tools/veclist.py (pulled in via tools/__init__.py); rag/ragtest.py
-scipy              # chunking_tests/voter_stat.py: binomial sample-size calculation
+openai>=1.0 
+numpy 
+scipy 
 
